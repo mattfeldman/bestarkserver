@@ -6,6 +6,11 @@
 .masthead.segment {
     min-height: 700px;
     padding: 1em 0em;
+    background-image: url("/images/background-purple.jpg") !important;
+    background-size: cover !important;
+}
+.masthead .ui.secondary.inverted.pointing.menu{
+    border-width: 0 0 1px 0
 }
 
 .masthead .logo.item img {
@@ -26,6 +31,7 @@
 .masthead h2 {
     font-size: 1.7em;
     font-weight: normal;
+    margin-bottom: 2em !important;
 }
 
 .ui.vertical.stripe {

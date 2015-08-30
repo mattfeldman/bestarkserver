@@ -1,0 +1,15 @@
+.ui.inverted.vertical.masthead.center.aligned.segment#masthead
+  .ui.container
+    .ui.huge.secondary.inverted.pointing.menu
+      a.toc.item
+        i.sidebar.icon
+      {{partial "menu" .}}
+    .ui.text.container
+      h1.ui.inverted.header Best Ark Server
+      h2.ui.inverted.header Friendly, PVE, Community Server
+    .ui.large.buttons.container
+      {{range .Site.Data.ark.data.buttons}}
+        a.ui.left.labeled.icon.inverted.button href={{.href}} class={{.color}}
+          i.icon class={{.icon}}
+          span {{.label}}
+      {{end}}

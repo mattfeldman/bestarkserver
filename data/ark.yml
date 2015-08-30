@@ -1,0 +1,53 @@
+data:
+  rates:
+    - label: harvest
+      rate: 15
+      icon: square
+
+    - label: xp
+      rate: 15
+      icon: square
+
+    - label: taming
+      rate: 20
+      icon: square
+
+    - label: level cap
+      rate: 202
+      icon: square
+
+    - label: dino cap
+      rate: 239
+      icon: square
+  rules:
+    - title: "Don't be a dick"
+      details: "Really, we're trying to have fun here :)"
+
+    - title: "No building at spires"
+      details: "TODO"
+
+    - title: "No abusive/hateful speech"
+      details: "We wan to ensure the server is fun for everyone. We're concerned here with public chat, we do not want global filled with private arguments and inflamatory humor."
+  info:
+    teamspeak: "1.2.3.4:port"
+    gameserver: "4.5.6.7:port"
+  buttons:
+    - label: "Vote for us"
+      icon: star
+      color: orange
+      href: https://arkservers.net/server/68.64.171.154:27075/upvote
+
+    - label: "Teamspeak"
+      icon: unmute
+      color: purple
+      href: "#TODO"
+
+    - label: "Steam Community"
+      icon: steam
+      color: grey
+      href: "#TODO"
+
+    - label: "Join US West Server"
+      icon: play
+      color: green
+      href: "#TODO"

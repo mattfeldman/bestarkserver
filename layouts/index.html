@@ -7,8 +7,9 @@
     <link rel="stylesheet" type="text/css" href='css/homepage.css'/>
 </head>
 <body class="pushable">
+    {{$ark := .Site.Data.ark.data}}
     <!-- Following Menu -->
-    <div class="ui large top fixed hidden menu">
+    <div class="ui large top inverted huge fixed hidden menu">
         <div class="ui container">
             {{partial "menu" .}}
         </div>
@@ -23,9 +24,9 @@
     <!-- Page Contents -->
     <div class="pusher">
         {{partial "masthead" .}}
-        {{partial "work" .}}
-        {{partial "quotes" .}}
-        {{partial "features" .}}
+        {{partial "rates" .}}
+        {{partial "rules" .}}
+        {{partial "about" .}}
         {{partial "footer" .}}
     </div>
 

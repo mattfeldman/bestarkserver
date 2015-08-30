@@ -1,0 +1,6 @@
+.ui.inverted.orange.center.aligned.segment
+  form.ui.form
+    .inline.field
+      label Email
+      input.left.attached
+      .ui.right.attached.button Sign up

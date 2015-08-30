@@ -1,0 +1,9 @@
+.ui.vertical.secondary.stripe.segment.center.aligned#rates
+  .ui.text.container
+    h1 style="color: black;" Rates
+    .ui.statistics.five
+      {{ range .Site.Data.ark.data.rates }}
+        .statistic
+          .value {{ .rate }}
+          .label {{ .label }}
+      {{ end }}

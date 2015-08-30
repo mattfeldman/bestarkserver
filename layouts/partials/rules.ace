@@ -1,0 +1,10 @@
+.ui.vertical.stripe.segment#rules
+  .ui.text.container
+    h1 Rules
+    .ui.relaxed.huge.list
+      {{ range .Site.Data.ark.data.rules }}
+        .item
+          .content
+            .header {{ .title }}
+            {{ .details }}
+      {{ end }}

@@ -1,0 +1,7 @@
+.ui.vertical.stripe.segment.inverted#about
+  .ui.text.container
+    h1 About
+    p..
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit sapien nulla, non cursus nulla dignissim at. Curabitur convallis, mi at volutpat fermentum, mauris tortor tincidunt velit, in luctus eros magna vel orci. Maecenas facilisis augue ut velit tempus, a tempus urna auctor. In in maximus velit. Suspendisse et hendrerit enim. Proin accumsan vulputate risus nec elementum. Phasellus dapibus dapibus volutpat. Donec mattis ac nunc volutpat ultrices. Ut vitae tellus lacus.
+
+      Vivamus metus orci, porta volutpat porttitor in, ullamcorper nec diam. Suspendisse non lectus est. Maecenas augue orci, accumsan a pulvinar ut, vehicula ac leo. Praesent in pharetra ligula, in interdum risus. Etiam lobortis nulla sit amet erat fringilla, non ultrices nisl euismod. Aenean vehicula tristique lorem, fermentum mattis nisi pulvinar et. Vestibulum laoreet commodo pharetra. Vivamus ullamcorper pharetra lectus, vel lacinia ipsum feugiat varius. Pellentesque id felis finibus, iaculis purus et, congue ante. Suspendisse potenti. Phasellus pulvinar venenatis pellentesque.
