@@ -8,8 +8,15 @@
       h1.ui.inverted.header Best Ark Server
       h2.ui.inverted.header Friendly, PVE, Community Server
     .ui.large.buttons.container
-      {{range .Site.Data.ark.data.buttons}}
-        a.ui.left.labeled.icon.inverted.button href={{.href}} class={{.color}}
-          i.icon class={{.icon}}
-          span {{.label}}
-      {{end}}
+      a.ui.left.labeled.icon.inverted.button href=https://arkservers.net/server/68.64.171.154:27075/upvote class=orange
+        i.icon class=star
+        span Vote for us
+      a.ui.left.labeled.icon.inverted.button href=steam://connect/68.64.171.154:27075 class=purple
+        i.icon class=unmute
+        span Teamspeak
+      a.ui.left.labeled.icon.inverted.button href=steam://connect/68.64.171.154:27075 class=grey
+        i.icon class=steam
+        span Steam Community
+      a.ui.left.labeled.icon.inverted.button href=steam://connect/68.64.171.154:27075 class=green
+        i.icon class=play
+        span Join US West Server
