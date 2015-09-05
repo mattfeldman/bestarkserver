@@ -5,11 +5,14 @@
 
 .masthead.segment {
     min-height: 700px;
+}
+.header.segment, .masthead.segment {
     padding: 1em 0em;
     background-image: url("/images/background-purple.jpg") !important;
     background-size: cover !important;
 }
-.masthead .ui.secondary.inverted.pointing.menu{
+
+.header .ui.secondary.inverted.pointing.menu{
     border-width: 0 0 1px 0
 }
 
