@@ -1,0 +1,35 @@
+{
+  "name": "stickyFooter",
+  "version": "1.2.1",
+  "homepage": "https://github.com/reinos/jquery.stickyFooter",
+  "authors": [
+    "Reinos <info@reinos.nl>"
+  ],
+  "description": "Simple stickyFooter",
+  "main": [
+    "dist/jquery.stickyFooter.js"
+  ],
+  "keywords": [
+    "stickyFooter",
+    "jquery.stickyFooter",
+    "reinos"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.1",
+    "commit": "5e4609d51bc8c778ac700dca55e5d4e3fa38bad6"
+  },
+  "_source": "git://github.com/reinos/jquery.stickyFooter.git",
+  "_target": "~1.2.1",
+  "_originalSource": "jquery.stickyFooter",
+  "_direct": true
+}
