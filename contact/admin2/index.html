@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>about | Our Ark Server</title>
+    <title>Contact Admin | Our Ark Server</title>
     <link rel="stylesheet" type="text/css" href='/assets/semantic/dist/semantic.min.css'/>
     <link rel="stylesheet" type="text/css" href='/css/homepage.css'/>
 </head>
@@ -12,25 +12,35 @@
         <div class="ui container">
             <div class="ui huge secondary inverted pointing menu">
                 <a class="item" href="/">Home</a>
-                <a class="item" href="/contact">Contact</a>
+                <a class="item active" href="/contact">Contact</a>
             </div>
         </div>
         <div class="ui text container">
-            <h1 class="ui inverted header">about</h1>
+            <h1 class="ui inverted header">Contact</h1>
             <h3 class="ui inverted header">Best Ark Server</h3>
         </div>
     </div>
 
     <div class="ui vertical stripe segment text container">
-        <p>this is about</p>
-
-<ul>
-<li>this</li>
-<li>is</li>
-<li>so</li>
-<li>cool</li>
-</ul>
-
+        <h1>Contact Admin</h1>
+        <p>Use this form to contact an admin</p>
+        <form class="ui form" action="//formspree.io/bestarkserver@gmail.com" method="post">
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="hidden" name="_subject" value="Admin Contact" />
+    <div class="field">
+        <label>Ark Player Name</label>
+        <input name="player"/>
+    </div>
+    <div class="field">
+        <label>Email Address</label>
+        <input name="email"/>
+    </div>
+    <div class="field">
+        <label>Message</label>
+        <textarea name="message"></textarea>
+    </div>
+    <input type="submit" class="ui violet button"/>
+</form>
     </div>
     <div class="ui inverted secondary violet vertical footer segment">
     <div class="ui container">
@@ -64,5 +74,8 @@
 
 <script src="assets/jquery/dist/jquery.min.js"></script>
 <script src="assets/semantic/dist/semantic.min.js"></script>
-</body>
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts on Our Ark Server</title>
+    <link>http://www.bestarkserver.com/contact/</link>
+    <description>Recent content in Contacts on Our Ark Server</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://www.bestarkserver.com/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contact Admin</title>
+      <link>http://www.bestarkserver.com/contact/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/contact/admin/</guid>
+      <description>&lt;form class=&#34;ui form&#34; action=&#34;https://getsimpleform.com/messages?form_api_token=8698420a515f5cd58ac42587c5b95bf1&#34; method=&#34;post&#34;&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;subject&#34; value=&#34;Admin Contact&#34; /&gt;
+    &lt;div class=&#34;field&#34;&gt;
+        &lt;label&gt;Ark Player Name&lt;/label&gt;
+        &lt;input name=&#34;player&#34;/&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;field&#34;&gt;
+        &lt;label&gt;Email Address&lt;/label&gt;
+        &lt;input name=&#34;email&#34;/&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;field&#34;&gt;
+        &lt;label&gt;Message&lt;/label&gt;
+        &lt;textarea name=&#34;message&#34;&gt;&lt;/textarea&gt;
+    &lt;/div&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;ui violet button&#34;/&gt;
+&lt;/form&gt;</description>
+    </item>
+    
+    <item>
+      <title>Suggest a Mod</title>
+      <link>http://www.bestarkserver.com/contact/mod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/contact/mod/</guid>
+      <description>&lt;form class=&#34;ui form&#34; action=&#34;https://getsimpleform.com/messages?form_api_token=8698420a515f5cd58ac42587c5b95bf1&#34; method=&#34;post&#34;&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;subject&#34; value=&#34;Mod Suggestion&#34; /&gt;
+    &lt;input type=&#39;hidden&#39; name=&#39;redirect_to&#39; value=&#34;http://www.bestarkserver.com/thankyou/&#34; /&gt;
+    &lt;div class=&#34;field&#34;&gt;
+        &lt;label&gt;Ark Player Name&lt;/label&gt;
+        &lt;input name=&#34;player&#34;/&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;field&#34;&gt;
+        &lt;label&gt;Steam Workshop Link&lt;/label&gt;
+        &lt;input name=&#34;player&#34; placeholder=&#34;e.g. http://steamcommunity.com/sharedfiles/filedetails/?id=509793590&#34;/&gt;
+    &lt;/div&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;ui violet button&#34;/&gt;
+&lt;/form&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
