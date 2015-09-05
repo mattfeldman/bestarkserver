@@ -49,7 +49,7 @@
         &lt;label&gt;Steam Workshop Link&lt;/label&gt;
         &lt;input name=&#34;player&#34; placeholder=&#34;e.g. http://steamcommunity.com/sharedfiles/filedetails/?id=509793590&#34;/&gt;
     &lt;/div&gt;
-    &lt;input type=&#34;submit&#34; class=&#34;ui fluid floated violet button&#34;/&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;ui violet button&#34;/&gt;
 &lt;/form&gt;</description>
     </item>
     

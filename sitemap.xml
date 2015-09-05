@@ -13,15 +13,15 @@
   </url>
   
   <url>
-    <loc>http://www.bestarkserver.com/contact/admin/</loc>
-  </url>
-  
-  <url>
     <loc>http://www.bestarkserver.com/thankyou/</loc>
   </url>
   
   <url>
     <loc>http://www.bestarkserver.com/contact/mod/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.bestarkserver.com/contact/admin/</loc>
   </url>
   
 </urlset>
