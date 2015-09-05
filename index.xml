@@ -47,6 +47,7 @@
       <guid>http://www.bestarkserver.com/contact/admin/</guid>
       <description>&lt;form class=&#34;ui form&#34; action=&#34;https://getsimpleform.com/messages?form_api_token=8698420a515f5cd58ac42587c5b95bf1&#34; method=&#34;post&#34;&gt;
     &lt;input type=&#34;hidden&#34; name=&#34;subject&#34; value=&#34;Admin Contact&#34; /&gt;
+    &lt;input type=&#39;hidden&#39; name=&#39;redirect_to&#39; value=&#34;http://www.bestarkserver.com/thankyou/&#34; /&gt;
     &lt;div class=&#34;field&#34;&gt;
         &lt;label&gt;Ark Player Name&lt;/label&gt;
         &lt;input name=&#34;player&#34;/&gt;
