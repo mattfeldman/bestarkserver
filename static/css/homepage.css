@@ -7,7 +7,9 @@
     transition: 200ms;
     opacity: 0;
 }
-
+.relative {
+    position: relative;
+}
 .masthead.segment {
     min-height: 700px;
 }
