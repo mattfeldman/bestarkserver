@@ -3,6 +3,11 @@
     display: none;
 }
 
+.footer {
+    transition: 200ms;
+    opacity: 0;
+}
+
 .masthead.segment {
     min-height: 700px;
 }
