@@ -3,3 +3,6 @@
     h1 About
     p..
       {{.Site.Data.ark.data.about | markdownify}}
+  .ui.center.aligned.vertical.stripe.container
+    a href="http://www.gametracker.com/server_info/68.64.171.154:7837/" target="_blank"
+      img src="http://cache.www.gametracker.com/server_info/68.64.171.154:7837/b_560x95.png"
