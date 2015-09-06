@@ -63,7 +63,9 @@
         &lt;input name=&#34;coordinates&#34; placeholder=&#34;lat / long&#34;&gt;
     &lt;/div&gt;
     &lt;input type=&#34;submit&#34; class=&#34;ui violet button&#34;/&gt;
-&lt;/form&gt;</description>
+&lt;/form&gt;
+
+</description>
     </item>
     
     <item>
