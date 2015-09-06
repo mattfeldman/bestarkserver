@@ -7,6 +7,8 @@
     .ui.text.container
       h1.ui.inverted.header Best Ark Server
       h2.ui.inverted.header Friendly, PVE, Community Server
+      a href="http://www.gametracker.com/server_info/173.208.68.154:7837/" target="_blank"
+        img src="http://cache.www.gametracker.com/server_info/173.208.68.154:7837/b_350x20_C692108-381007-FFFFFF-000000.png" border="0" width="700" height="40"
     .ui.large.buttons.container
       a.ui.left.labeled.icon.inverted.button href=https://arkservers.net/server/68.64.171.154:27075/upvote class=orange
         i.icon class=star
