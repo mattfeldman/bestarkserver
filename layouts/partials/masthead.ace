@@ -17,6 +17,6 @@
       a.ui.left.labeled.icon.inverted.button href=http://steamcommunity.com/groups/BestArkServer class=grey
         i.icon class=steam
         span Steam Community
-      a.ui.left.labeled.icon.inverted.button href=steam://connect/68.64.171.154:27075 class=green
+      a.ui.left.labeled.icon.inverted.button href=steam://connect/173.208.68.154:27075 class=green
         i.icon class=play
-        span Join US West Server
+        span Join our Ark Server
