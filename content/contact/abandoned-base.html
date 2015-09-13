@@ -1,0 +1,31 @@
+---
+title: Find an abandoned base?
+description: Help us out by reporting clearly abandoned structures, we can use this for our clean up events to free up premium space on the server.
+---
+<form class="ui form" action="https://getsimpleform.com/messages?form_api_token=8698420a515f5cd58ac42587c5b95bf1" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="subject" value="AbandonedBase" />
+    <input type='hidden' name='redirect_to' value="{{< ref "thankyou.html" >}}" />
+    <div class="ui two column middle aligned very relaxed stackable grid relative">
+        <div class="field column">
+            <label>Image Link</label>
+            <input name="link"/>
+        </div>
+        <div class="ui divider vertical">
+            Or
+        </div>
+        <div class="field column">
+            <label>Upload Screenshot</label>
+            <input type="file" name="screenshot">
+        </div>
+    </div>
+    <div class="field">
+        <label>Map Coordinates</label>
+        <input name="coordinates" placeholder="lat / long">
+    </div>
+    <div class="field">
+        <label>Notes</label>
+        <input name="notes" placeholder="Any additional notes or description.">
+    </div>
+    <input type="submit" class="ui violet button"/>
+</form>
+
