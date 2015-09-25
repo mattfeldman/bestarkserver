@@ -1,0 +1,23 @@
+{{ $urlPre := "http://api.diffbot.com/v3/product?token=7704adbff9bd55e30e04c24b4373e192&url=http%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D" }}
+  .ui.vertical.secondary.stripe.segment#mods
+    .ui.text.container
+      h1 style="color: black;" Mods
+      p These are the mods we run or plan on running on the server. For best performance subscribe to these mods with the steam account you play on the server with.
+    .ui.three.column.page.grid.padded
+      {{ range .Site.Data.ark.data.mods }}
+        .column
+          a.ui.fluid.image.link.violet.card href=http://steamcommunity.com/sharedfiles/filedetails/?id={{.}}
+            {{ $dataJ := getJSON $urlPre . }}
+            {{range first 1 $dataJ.objects}}
+            .image
+            {{range .images }}
+              img src={{.url}}
+            {{end}}
+            .content
+              .header {{.title}}
+              .meta {{ .specs.file_size }}
+              .description {{slicestr (.text | chomp) 0 500}}...
+            .extra.content
+              span.right.floated {{ .specs.updated }}
+        {{end}}
+      {{end}}
