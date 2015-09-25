@@ -7,10 +7,6 @@
   </url>
   
   <url>
-    <loc>http://www.bestarkserver.com/contact/screenshot/</loc>
-  </url>
-  
-  <url>
     <loc>http://www.bestarkserver.com/contact/abandoned-base/</loc>
   </url>
   
@@ -19,11 +15,15 @@
   </url>
   
   <url>
-    <loc>http://www.bestarkserver.com/contact/mod/</loc>
+    <loc>http://www.bestarkserver.com/contact/admin/</loc>
   </url>
   
   <url>
-    <loc>http://www.bestarkserver.com/contact/admin/</loc>
+    <loc>http://www.bestarkserver.com/contact/screenshot/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.bestarkserver.com/contact/mod/</loc>
   </url>
   
 </urlset>
