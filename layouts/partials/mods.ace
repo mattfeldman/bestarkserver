@@ -3,7 +3,7 @@
     .ui.text.container
       h1 style="color: black;" Mods
       p These are the mods we run or plan on running on the server. For best performance subscribe to these mods with the steam account you play on the server with.
-    .ui.three.column.page.grid.padded
+    .ui.three.column.center.aligned.page.grid.padded
       {{ range .Site.Data.ark.data.mods }}
         .column
           a.ui.fluid.image.link.violet.card href=http://steamcommunity.com/sharedfiles/filedetails/?id={{.}}
