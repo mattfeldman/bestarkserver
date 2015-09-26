@@ -1,6 +1,6 @@
-.ui.vertical.secondary.stripe.segment.center.aligned#rates
+.ui.vertical.tertiary.stripe.segment#rates
   .ui.text.container
-    h1 style="color: black;" Rates
+    h1.inverted Rates
     .ui.statistics.five
       {{ range .Site.Data.ark.data.rates }}
         .statistic

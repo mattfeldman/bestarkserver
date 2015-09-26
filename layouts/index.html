@@ -27,6 +27,7 @@
     <div class="pusher">
         {{partial "masthead" .}}
         {{partial "rates" .}}
+        {{partial "news" .}}
         {{partial "rules" .}}
         {{partial "mods" .}}
         {{partial "screenshots" .}}
@@ -39,6 +40,8 @@
     <script src="assets/waypoints/lib/jquery.waypoints.min.js"></script>
     <script src="assets/stickyFooter/dist/jquery.stickyFooter.min.js"></script>
     <script src="assets/slick-carousel/slick/slick.min.js"></script>
+    <script src="assets/jquery-rss/dist/jquery.rss.min.js"></script>
+    <script src="assets/moment/min/moment.min.js"></script>
 
     <script>
         $(document).ready(function () {
@@ -47,6 +50,7 @@
             {{template "partials/scripts/scroll-to-anchor.js"}}
             {{template "partials/scripts/stickyfooter.js"}}
             {{template "partials/scripts/slick.js"}}
+            {{template "partials/scripts/news.js"}}
         });
     </script>
 </body>

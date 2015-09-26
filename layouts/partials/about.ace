@@ -1,4 +1,4 @@
-.ui.vertical.stripe.segment.inverted#about
+.ui.vertical.stripe.segment.tertiary#about
   .ui.text.container
     h1 About
     p..

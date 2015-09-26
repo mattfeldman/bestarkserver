@@ -1,0 +1,4 @@
+.ui.vertical.secondary.stripe.segment#news
+  .ui.text.container.rss-container
+    h1.ui.header News
+    .ui.active.centered.large.inline.text.news.loader Loading
