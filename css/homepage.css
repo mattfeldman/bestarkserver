@@ -114,3 +114,6 @@
         font-size: 1.5em;
     }
 }
+.slick-dots li.slick-active button:before {
+    color: white !important;
+}
