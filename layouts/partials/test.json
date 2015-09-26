@@ -1,0 +1,480 @@
+{
+  "request": {
+    "pageUrl": "http://steamcommunity.com/sharedfiles/filedetails/?id=510590313&searchtext=",
+    "api": "product",
+    "version": 3,
+    "options": [
+      "_=1443193423399",
+      "callback=jQuery1720790412311675027_1443193423320",
+      "format=jsonp"
+    ]
+  },
+  "objects": [
+    {
+      "text": "Description\nI'm looking for someone who wanna draw the engram icons for this mod\nAdd a new set of Metal with Glass structures\nThe structures have the same durability than the metal ones, but with less cost of metal ingots and an added cost of crystals.\nPatch Notes:\n-v11: Added 2 Wall Variants and 1 Ceiling Variant\n-v10: Added Door variant\n-v09: New Smithy\n-v08: Lowered Engrams points cost. Colors tweak. Added TrapDoor and Window\n-v07: Colors!!! and Destructible Meshes\n-v06: Added Roof and Roof Variant\n-v05: Added Door\n-v04: Added Dinosauor Gate and Behemoth Gate\n-v03: Added Foundation\n-v02: Added Ceiling\n-v01: Added Wall\nTry the mod here:\n[arkservers.net]\nGiveitem commands:\nWALL\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/Wall/PrimalItemStructure_GlassMetalWall.PrimalItemStructure_GlassMetalWall'" 1 1 false\nCEILING\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/Ceiling/PrimalItemStructure_GlassMetalCeiling.PrimalItemStructure_GlassMetalCeiling'" 1 1 false\nFLOOR\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/Floor/PrimalItemStructure_GlassMetalFloor.PrimalItemStructure_GlassMetalFloor'" 1 1 false\nDINOSAUR GATE\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/Gate/PrimalItemStructure_GlassMetalGate.PrimalItemStructure_GlassMetalGate'" 1 1 false\nBEHEMOTH GATE\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/GiantGate/PrimalItemStructure_GlassMetalGate_Large.PrimalItemStructure_GlassMetalGate_Large'" 1 1 false\nDOOR\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/Door/PrimalItemStructure_GlassMetalDoor.PrimalItemStructure_GlassMetalDoor'" 1 1 false\nROOF\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/Roof/PrimalItemStructure_GlassMetalRoof.PrimalItemStructure_GlassMetalRoof'" 1 1 false\nROOF VARIANT\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/Roof2/PrimalItemStructure_GlassMetalRoof_2.PrimalItemStructure_GlassMetalRoof_2'" 1 1 false\nTRAPDOOR\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/TrapDoor/PrimalItemStructure_GlassMetalTrapdoor.PrimalItemStructure_GlassMetalTrapdoor'" 1 1 false\nWINDOW\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/Window/PrimalItemStructure_GlassMetalWindow.PrimalItemStructure_GlassMetalWindow'" 1 1 false\nSMITHY\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/Anvil/PrimalItemStructure_GlassMetalAnvilBench.PrimalItemStructure_GlassMetalAnvilBench'" 1 1 false\nDOOR VARIANT\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/Door2/PrimalItemStructure_GlassMetalDoor_2.PrimalItemStructure_GlassMetalDoor_2'" 1 1 false\nWALL VAR\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/Wall2/PrimalItemStructure_GlassMetalWall_2.PrimalItemStructure_GlassMetalWall_2'" 1 1 false\nWALL VAR 2\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/Wall3/PrimalItemStructure_GlassMetalWall_3.PrimalItemStructure_GlassMetalWall_3'" 1 1 false\nCEILING VAR\ncheat giveitem "Blueprint'/Game/Mods/GlassMetalMod/Structures/GlassMetal/Ceiling2/PrimalItemStructure_GlassMetalCeiling_2.PrimalItemStructure_GlassMetalCeiling_2'" 1 1 false",
+      "discussion": {
+        "tags": [
+          {
+            "count": 2,
+            "prevalence": 0.05,
+            "score": 0.05,
+            "label": "Employment",
+            "uri": "http://dbpedia.org/resource/Employment"
+          },
+          {
+            "count": 2,
+            "prevalence": 0.05,
+            "score": 0.05,
+            "label": "Craft",
+            "uri": "http://dbpedia.org/resource/Craft"
+          },
+          {
+            "count": 3,
+            "prevalence": 0.07,
+            "score": 0.07,
+            "label": "Forge",
+            "uri": "http://dbpedia.org/resource/Forge"
+          },
+          {
+            "count": 3,
+            "prevalence": 0.07,
+            "score": 0.07,
+            "label": "Server (computing)",
+            "uri": "http://dbpedia.org/resource/Server_(computing)"
+          },
+          {
+            "count": 6,
+            "prevalence": 0.14,
+            "score": 0.14,
+            "label": "Mod (video gaming)",
+            "uri": "http://dbpedia.org/resource/Mod_(video_gaming)"
+          }
+        ],
+        "title": "Metal with Glass Set",
+        "numPosts": 10,
+        "pageUrl": "http://steamcommunity.com/sharedfiles/filedetails/?id=510590313&searchtext=",
+        "diffbotUri": "discussion|3|42417745",
+        "posts": [
+          {
+            "id": 0,
+            "tags": [
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Partnership (cricket)",
+                "uri": "http://dbpedia.org/resource/Partnership_(cricket)"
+              },
+              {
+                "count": 1,
+                "score": 0.24,
+                "label": "Dale Smith (The Bill)",
+                "uri": "http://dbpedia.org/resource/Dale_Smith_(The_Bill)"
+              },
+              {
+                "count": 1,
+                "score": 0.06,
+                "label": "Bioluminescence",
+                "uri": "http://dbpedia.org/resource/Bioluminescence"
+              },
+              {
+                "count": 1,
+                "score": 0.35,
+                "label": "Green",
+                "uri": "http://dbpedia.org/resource/Green"
+              }
+            ],
+            "author": "Thor-FFM",
+            "text": "Smithy glows green but i can not stand :(",
+            "pageUrl": "http://steamcommunity.com/sharedfiles/filedetails/?id=510590313&searchtext=",
+            "diffbotUri": "post|3|844044471",
+            "authorUrl": "http://steamcommunity.com/profiles/76561198173896201",
+            "humanLanguage": "en",
+            "html": "<p>Smithy glows green but i can not stand :(</p>",
+            "type": "post",
+            "date": "Fri, 25 Sep 2015 12:00:00 GMT"
+          },
+          {
+            "id": 1,
+            "tags": [
+              {
+                "count": 1,
+                "score": 0.27,
+                "label": "Craft",
+                "uri": "http://dbpedia.org/resource/Craft"
+              },
+              {
+                "count": 1,
+                "score": 0.37,
+                "label": "Forge",
+                "uri": "http://dbpedia.org/resource/Forge"
+              },
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Structure",
+                "uri": "http://dbpedia.org/resource/Structure"
+              }
+            ],
+            "author": "Ivam",
+            "text": "@Tarune there is a new smithy that let you craft all glass structures.",
+            "pageUrl": "http://steamcommunity.com/sharedfiles/filedetails/?id=510590313&searchtext=",
+            "diffbotUri": "post|3|-1220259298",
+            "authorUrl": "http://steamcommunity.com/id/Ivam",
+            "humanLanguage": "en",
+            "html": "<p>@Tarune there is a new smithy that let you craft all glass structures.</p>",
+            "type": "post",
+            "date": "Fri, 25 Sep 2015 05:00:00 GMT"
+          },
+          {
+            "id": 2,
+            "tags": [
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Musical composition",
+                "uri": "http://dbpedia.org/resource/Musical_composition"
+              },
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Cheque",
+                "uri": "http://dbpedia.org/resource/Cheque"
+              },
+              {
+                "count": 1,
+                "score": 0.35,
+                "label": "Server (computing)",
+                "uri": "http://dbpedia.org/resource/Server_(computing)"
+              }
+            ],
+            "author": "Gantoris",
+            "text": "works great still please stop by our server and check it out :D http://arkservers.net/server/216.231.139.63:27088",
+            "pageUrl": "http://steamcommunity.com/sharedfiles/filedetails/?id=510590313&searchtext=",
+            "diffbotUri": "post|3|1626154512",
+            "authorUrl": "http://steamcommunity.com/profiles/76561197995071881",
+            "humanLanguage": "en",
+            "html": "<p>works great still please stop by our server and check it out :D <a href="https://steamcommunity.com/linkfilter/?url=http://arkservers.net/server/216.231.139.63:27088">http://arkservers.net/server/216.231.139.63:27088</a></p>",
+          "type": "post",
+            "date": "Fri, 25 Sep 2015 03:00:00 GMT"
+          },
+          {
+            "id": 3,
+            "tags": [
+              {
+                "count": 1,
+                "score": 0.02,
+                "label": "Craft",
+                "uri": "http://dbpedia.org/resource/Craft"
+              },
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Shipbuilding",
+                "uri": "http://dbpedia.org/resource/Shipbuilding"
+              },
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Forced disappearance",
+                "uri": "http://dbpedia.org/resource/Forced_disappearance"
+              },
+              {
+                "count": 2,
+                "score": 0.28,
+                "label": "Forge",
+                "uri": "http://dbpedia.org/resource/Forge"
+              },
+              {
+                "count": 2,
+                "score": 0,
+                "label": "Engram (Dianetics)",
+                "uri": "http://dbpedia.org/resource/Engram_(Dianetics)"
+              }
+            ],
+            "author": "Tarune",
+            "text": "Doesn't work for me anymore. The already placed structures remain, but the engrams disappeared when i built a new smithy. And the old engrams on the old smithy shows as "white"(they are craftable) but i cannot craft them.",
+            "pageUrl": "http://steamcommunity.com/sharedfiles/filedetails/?id=510590313&searchtext=",
+            "diffbotUri": "post|3|-318377876",
+            "authorUrl": "http://steamcommunity.com/profiles/76561197982191874",
+            "humanLanguage": "en",
+            "html": "<p>Doesn't work for me anymore. The already placed structures remain, but the engrams disappeared when i built a new smithy. And the old engrams on the old smithy shows as &quot;white&quot;(they are craftable) but i cannot craft them.</p>",
+            "type": "post",
+            "date": "Fri, 25 Sep 2015 01:00:00 GMT"
+          },
+          {
+            "id": 4,
+            "tags": [
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Installation (computer programs)",
+                "uri": "http://dbpedia.org/resource/Installation_(computer_programs)"
+              },
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Reboot (fiction)",
+                "uri": "http://dbpedia.org/resource/Reboot_(fiction)"
+              },
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Reason",
+                "uri": "http://dbpedia.org/resource/Reason"
+              },
+              {
+                "count": 1,
+                "score": 0.09,
+                "label": "Love",
+                "uri": "http://dbpedia.org/resource/Love"
+              },
+              {
+                "count": 2,
+                "score": 0.36,
+                "label": "Mod (video gaming)",
+                "uri": "http://dbpedia.org/resource/Mod_(video_gaming)"
+              }
+            ],
+            "author": "GooberGrape",
+            "text": "I love this mod but some reason it corrupts on reboot and my server wont start unless I delete and reinstall the mod..",
+            "pageUrl": "http://steamcommunity.com/sharedfiles/filedetails/?id=510590313&searchtext=",
+            "diffbotUri": "post|3|-372089858",
+            "authorUrl": "http://steamcommunity.com/id/upperking",
+            "humanLanguage": "en",
+            "html": "<p>I love this mod but some reason it corrupts on reboot and my server wont start unless I delete and reinstall the mod..</p>",
+            "type": "post",
+            "date": "Thu, 24 Sep 2015 22:00:00 GMT"
+          },
+          {
+            "id": 5,
+            "tags": [
+              {
+                "count": 1,
+                "score": 0.19,
+                "label": "Free software",
+                "uri": "http://dbpedia.org/resource/Free_software"
+              },
+              {
+                "count": 1,
+                "score": 0.16,
+                "label": "Patch (computing)",
+                "uri": "http://dbpedia.org/resource/Patch_(computing)"
+              },
+              {
+                "count": 1,
+                "score": 0.23,
+                "label": "Dragon",
+                "uri": "http://dbpedia.org/resource/Dragon"
+              },
+              {
+                "count": 1,
+                "score": 0.26,
+                "label": "Server (computing)",
+                "uri": "http://dbpedia.org/resource/Server_(computing)"
+              },
+              {
+                "count": 3,
+                "score": 0.38,
+                "label": "Mod (video gaming)",
+                "uri": "http://dbpedia.org/resource/Mod_(video_gaming)"
+              }
+            ],
+            "author": "redbackdanno",
+            "text": "Server name: [tF] AUS/NZ New19/9 X2wk-X3Wkends Mods Tranqgun-Glasswall ridable titanboa's Vault collection 2.0\nOther mods we have are Small dragons, ridable titanboa's, Glass walls,\nTranq Dart guns,Bessemer Furnace(faster metal)Aku Shima,Magic Masks,Stairs mod.Always looking for new great mods.\nI Will be running this mod too when updated it is awesome when working.\nBut feel free to come check it out in the meantime and test."Huge Thanks to all the Mod makers."",
+            "pageUrl": "http://steamcommunity.com/sharedfiles/filedetails/?id=510590313&searchtext=",
+            "diffbotUri": "post|3|1785882318",
+            "authorUrl": "http://steamcommunity.com/id/redbackdanno",
+            "humanLanguage": "en",
+            "html": "<p>Server name: [tF] AUS/NZ New19/9 X2wk-X3Wkends Mods Tranqgun-Glasswall ridable titanboa's Vault collection 2.0<br>\nOther mods we have are Small dragons, ridable titanboa's, Glass walls,<br>\nTranq Dart guns,Bessemer Furnace(faster metal)Aku Shima,Magic Masks,Stairs mod.Always looking for new great mods.<br>\nI Will be running this mod too when updated it is awesome when working.<br>\nBut feel free to come check it out in the meantime and test.&quot;Huge Thanks to all the Mod makers.&quot;</p>",
+            "type": "post",
+            "date": "Thu, 24 Sep 2015 19:00:00 GMT"
+          },
+          {
+            "id": 6,
+            "tags": [
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Mod (subculture)",
+                "uri": "http://dbpedia.org/resource/Mod_(subculture)"
+              },
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Glass",
+                "uri": "http://dbpedia.org/resource/Glass"
+              },
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Love",
+                "uri": "http://dbpedia.org/resource/Love"
+              },
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Great Rann of Kutch",
+                "uri": "http://dbpedia.org/resource/Great_Rann_of_Kutch"
+              }
+            ],
+            "author": "sicusdramoc",
+            "text": "Great mod! we love the one way mirror(glass)",
+            "pageUrl": "http://steamcommunity.com/sharedfiles/filedetails/?id=510590313&searchtext=",
+            "diffbotUri": "post|3|1138477515",
+            "authorUrl": "http://steamcommunity.com/profiles/76561198059792341",
+            "humanLanguage": "en",
+            "html": "<p>Great mod! we love the one way mirror(glass)</p>",
+            "type": "post",
+            "date": "Wed, 23 Sep 2015 00:00:00 GMT"
+          },
+          {
+            "id": 7,
+            "tags": [
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Employment",
+                "uri": "http://dbpedia.org/resource/Employment"
+              },
+              {
+                "count": 1,
+                "score": 0.37,
+                "label": "Show (animal)",
+                "uri": "http://dbpedia.org/resource/Show_(animal)"
+              },
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Learning",
+                "uri": "http://dbpedia.org/resource/Learning"
+              },
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Server (computing)",
+                "uri": "http://dbpedia.org/resource/Server_(computing)"
+              }
+            ],
+            "author": "Kyradrachenlady",
+            "text": "Mhhh it doesn´t work at my server, it´s not showing in the engramlist to learn.",
+            "pageUrl": "http://steamcommunity.com/sharedfiles/filedetails/?id=510590313&searchtext=",
+            "diffbotUri": "post|3|301312452",
+            "authorUrl": "http://steamcommunity.com/profiles/76561198093945769",
+            "humanLanguage": "en",
+            "html": "<p>Mhhh it doesn&acute;t work at my server, it&acute;s not showing in the engramlist to learn.</p>",
+            "type": "post",
+            "date": "Wed, 23 Sep 2015 00:00:00 GMT"
+          },
+          {
+            "id": 8,
+            "tags": [
+              {
+                "count": 1,
+                "score": 0.4,
+                "label": "Keep",
+                "uri": "http://dbpedia.org/resource/Keep"
+              },
+              {
+                "count": 1,
+                "score": 0.32,
+                "label": "XX Bomber Command",
+                "uri": "http://dbpedia.org/resource/XX_Bomber_Command"
+              },
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Mod (video gaming)",
+                "uri": "http://dbpedia.org/resource/Mod_(video_gaming)"
+              }
+            ],
+            "author": "alex_bainbridge",
+            "text": "Also there is no command for doorframe above. btw this mod is great keep it up (y)",
+            "pageUrl": "http://steamcommunity.com/sharedfiles/filedetails/?id=510590313&searchtext=",
+            "diffbotUri": "post|3|981214581",
+            "authorUrl": "http://steamcommunity.com/profiles/76561198089058249",
+            "humanLanguage": "en",
+            "html": "<p>Also there is no command for doorframe above. btw this mod is great keep it up (y)</p>",
+            "type": "post",
+            "date": "Wed, 23 Sep 2015 00:00:00 GMT"
+          },
+          {
+            "id": 9,
+            "tags": [
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Employment",
+                "uri": "http://dbpedia.org/resource/Employment"
+              },
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Wall",
+                "uri": "http://dbpedia.org/resource/Wall"
+              },
+              {
+                "count": 1,
+                "score": 0,
+                "label": "Interchange (road)",
+                "uri": "http://dbpedia.org/resource/Interchange_(road)"
+              }
+            ],
+            "author": "{7CL} RandomArchetype",
+            "text": "Just wondering if you are working on triangle walls to go with the ramps?",
+            "pageUrl": "http://steamcommunity.com/sharedfiles/filedetails/?id=510590313&searchtext=",
+            "diffbotUri": "post|3|-2129588571",
+            "authorUrl": "http://steamcommunity.com/id/RandomArchetype",
+            "humanLanguage": "en",
+            "html": "<p>Just wondering if you are working on triangle walls to go with the ramps?</p>",
+            "type": "post",
+            "date": "Wed, 23 Sep 2015 00:00:00 GMT"
+          }
+        ],
+        "confidence": 0.3996472930908203,
+        "type": "discussion",
+        "numPages": 1,
+        "participants": 10
+      },
+      "pageUrl": "http://steamcommunity.com/sharedfiles/filedetails/?id=510590313&searchtext=",
+      "humanLanguage": "en",
+      "type": "product",
+      "sku": "510590313",
+      "breadcrumb": [
+        {
+          "link": "http://steamcommunity.com/app/346110",
+          "name": "ARK: Survival Evolved"
+        },
+        {
+          "link": "http://steamcommunity.com/app/346110/workshop/",
+          "name": "Workshop"
+        },
+        {
+          "link": "http://steamcommunity.com/id/Ivam/myworkshopfiles/?appid=346110",
+          "name": "Ivam's Workshop"
+        }
+      ],
+      "productId": "510590313",
+      "title": "Metal with Glass Set",
+      "diffbotUri": "product|3|-1977387372",
+      "images": [
+        {
+          "height": 358,
+          "naturalHeight": 358,
+          "diffbotUri": "image|3|-557960891",
+          "primary": true,
+          "width": 637,
+          "naturalWidth": 637,
+          "url": "http://images.akamai.steamusercontent.com/ugc/684900965609771974/FBC4A548C25F5AC287235D0F5B437BDF55696AF9/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to=*,*|637:358&background-color=black",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[11]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]"
+        }
+      ],
+      "specs": {
+        "file_size": "68.002 MB",
+        "updated": "Sep 21 @ 2:58pm",
+        "posted": "Sep 1 @ 12:40pm"
+      },
+      "availability": true
+    }
+  ],
+  "url": "http://steamcommunity.com/sharedfiles/filedetails/?id=510590313&searchtext="
+}

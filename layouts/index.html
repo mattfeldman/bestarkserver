@@ -5,6 +5,8 @@
     <title>{{.Site.Title}}</title>
     <link rel="stylesheet" type="text/css" href='assets/semantic/dist/semantic.min.css'/>
     <link rel="stylesheet" type="text/css" href='css/homepage.css'/>
+    <link rel="stylesheet" type="text/css" href='assets/slick-carousel/slick/slick.css'/>
+    <link rel="stylesheet" type="text/css" href='assets/slick-carousel/slick/slick-theme.css'/>
 </head>
 <body class="pushable">
     {{$ark := .Site.Data.ark.data}}
@@ -27,6 +29,7 @@
         {{partial "rates" .}}
         {{partial "rules" .}}
         {{partial "mods" .}}
+        {{partial "screenshots" .}}
         {{partial "about" .}}
         {{partial "footer" .}}
     </div>
@@ -35,12 +38,15 @@
     <script src="assets/semantic/dist/semantic.min.js"></script>
     <script src="assets/waypoints/lib/jquery.waypoints.min.js"></script>
     <script src="assets/stickyFooter/dist/jquery.stickyFooter.min.js"></script>
+    <script src="assets/slick-carousel/slick/slick.min.js"></script>
+
     <script>
         $(document).ready(function () {
             {{template "partials/scripts/masthead.js"}}
             {{template "partials/scripts/waypoints.js"}}
             {{template "partials/scripts/scroll-to-anchor.js"}}
             {{template "partials/scripts/stickyfooter.js"}}
+            {{template "partials/scripts/slick.js"}}
         });
     </script>
 </body>

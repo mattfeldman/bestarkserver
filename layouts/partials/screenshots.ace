@@ -1,0 +1,11 @@
+.ui.vertical.stripe.segment.inverted#screenshots
+  .ui.text.container
+    h1.header Screenshots
+    p
+      span These screenshots were taken on our server. You can submit a new screenshot
+      a href=/contact/screenshot  here.
+  .ui.padded.container.screenshots
+    {{ range .Site.Data.ark.data.screenshots }}
+    .ui.image
+      img src="/images/screenshots/{{.}}.jpg"
+    {{end}}
