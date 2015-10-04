@@ -7,10 +7,10 @@
     .ui.text.container
       h1.ui.inverted.header Best Ark Server
       h2.ui.inverted.header Friendly, PVE, Community Server
-      a href="http://www.gametracker.com/server_info/69.30.205.58:7778/" target="_blank"
-        img src="http://cache.www.gametracker.com/server_info/69.30.205.58:7778/b_350x20_C692108-381007-FFFFFF-000000.png" border="0" width="700" height="40"
+      a href="http://www.gametracker.com/server_info/173.208.68.154:27075/" target="_blank"
+        img src="http://cache.www.gametracker.com/server_info/173.208.68.154:27075/b_350x20_C692108-381007-FFFFFF-000000.png" border="0" width="700" height="40"
     .ui.large.buttons.container
-      a.ui.left.labeled.icon.inverted.button href=https://arkservers.net/server//69.30.205.58:27016/upvote class=orange
+      a.ui.left.labeled.icon.inverted.button href=https://arkservers.net/server//173.208.68.154:27075/upvote class=orange
         i.icon class=star
         span Vote for us
       a.ui.left.labeled.icon.inverted.button href=ts3server://bestarkserver.typefrag.com class=purple
@@ -19,6 +19,6 @@
       a.ui.left.labeled.icon.inverted.button href=http://steamcommunity.com/groups/BestArkServer class=grey
         i.icon class=steam
         span Steam Community
-      a.ui.left.labeled.icon.inverted.button href=steam://connect/69.30.205.58:27016 class=green
+      a.ui.left.labeled.icon.inverted.button href=steam://connect/173.208.68.154:27075 class=green
         i.icon class=play
         span Join 24/7 PVE Server
