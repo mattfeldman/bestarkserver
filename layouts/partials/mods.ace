@@ -1,4 +1,4 @@
-{{ $urlPre := "http://api.diffbot.com/v3/product?token=7704adbff9bd55e30e04c24b4373e192&url=http%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D" }}
+{{ $urlPre := "http://api.embed.ly/1/extract?key=14045eca3d45445aa1f234d96aaad59d&url=http%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D" }}
   .ui.vertical.secondary.stripe.segment#mods
     .ui.text.container
       h1 style="color: black;" Mods
@@ -8,16 +8,12 @@
         .column
           a.ui.fluid.image.link.violet.card href=http://steamcommunity.com/sharedfiles/filedetails/?id={{.}}
             {{ $dataJ := getJSON $urlPre . }}
-            {{range first 1 $dataJ.objects}}
             .image
-            {{range .images }}
-              img src={{.url}}
-            {{end}}
+              {{range first 1 $dataJ.images }}
+                img src={{ .url }}
+              {{end}}
             .content
-              .header {{.title}}
-              .meta {{ .specs.file_size }}
-              .description {{slicestr (.text | chomp) 0 500}}...
+              .header {{$dataJ.title}}
+              .description.left.aligned {{$dataJ.description}}
             .extra.content
-              span.right.floated {{ .specs.updated }}
-        {{end}}
       {{end}}
