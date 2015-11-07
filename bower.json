@@ -13,6 +13,7 @@
     "jquery-rss": "~3.1.0",
     "semantic": "semantic-ui#~2.0.8",
     "slick-carousel": "~1.5.8",
-    "waypoints": "jquery-waypoints#~4.0.0"
+    "waypoints": "jquery-waypoints#~4.0.0",
+    "stickyFooter": "jquery.stickyFooter#~1.2.1"
   }
 }
