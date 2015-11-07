@@ -14,23 +14,36 @@ data:
   rates:
     - label: harvest
       rate: 15
-      icon: square
+      icon: tree
 
     - label: xp
       rate: 15
-      icon: square
+      icon: star
 
     - label: taming
       rate: 20
-      icon: square
+      icon: lightning
 
     - label: level cap
-      rate: 202
-      icon: square
+      rate: 205
+      icon: trophy
 
     - label: dino cap
-      rate: 239
-      icon: square
+      rate: 285
+      icon: paw
+
+    - label: dino breed
+      rate: 10
+      icon: heterosexual
+
+    - label: dino growth
+      rate: 10
+      icon: bug
+
+    - label: prestige levels
+      rate: 5
+      icon: flag
+
   rules:
     - title: "Have fun - don't spoil others fun"
       details: "Really, we're all trying to have fun here, so do whatever is fun to you, but please try to be a good neighbor and consider others."
@@ -40,6 +53,9 @@ data:
 
     - title: "No abusive/hateful speech"
       details: "We want to ensure the server is a healthy environment for everyone. We're concerned here with public chat, we do not want global filled with private arguments and inflamatory humor."
+
+    - title: "No blocking dense resource nodes"
+      details: "Areas like the 'volcano' have dense resources spawns for crystal/obsidian/metal, placing structures near the resource nodes can interfere with the spawn. You can build on the perimeter so you can still be close to the nodes without them from spawning."
   about: >
     We are a **casual PVE ark server** with beginner friendly rates. The server was spawned out of the
     fustration of finding a stable PVE centric community. Our goal was to create an open community of regular ark players. The server is currently based in **Los Angeles, California**

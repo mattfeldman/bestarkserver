@@ -1,9 +1,12 @@
 .ui.vertical.tertiary.stripe.segment#rates
   .ui.text.container
     h1.inverted Rates
-    .ui.statistics.five
+    .ui.four.statistics
       {{ range .Site.Data.ark.data.rates }}
-        .statistic
-          .value {{ .rate }}
-          .label {{ .label }}
+        .ui.statistic
+          .value
+            {{ .rate }}
+          .label
+            i.ui.icon class={{.icon}}
+            {{ .label }}
       {{ end }}
