@@ -32,6 +32,5 @@
   },
   "_source": "git://github.com/sdepold/jquery-rss.git",
   "_target": "~3.1.0",
-  "_originalSource": "jquery-rss",
-  "_direct": true
+  "_originalSource": "jquery-rss"
 }
