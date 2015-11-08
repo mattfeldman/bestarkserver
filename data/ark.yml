@@ -26,7 +26,7 @@ data:
 
     - label: level cap
       rate: 205
-      icon: trophy
+      icon: flag
 
     - label: dino cap
       rate: 285
@@ -42,7 +42,7 @@ data:
 
     - label: prestige levels
       rate: 5
-      icon: flag
+      icon: trophy
 
   rules:
     - title: "Have fun - don't spoil others fun"
