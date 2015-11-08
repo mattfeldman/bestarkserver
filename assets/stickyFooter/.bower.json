@@ -30,6 +30,5 @@
   },
   "_source": "git://github.com/reinos/jquery.stickyFooter.git",
   "_target": "~1.2.1",
-  "_originalSource": "jquery.stickyFooter",
-  "_direct": true
+  "_originalSource": "jquery.stickyFooter"
 }
