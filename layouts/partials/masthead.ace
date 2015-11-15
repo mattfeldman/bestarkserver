@@ -13,9 +13,9 @@
       a.ui.left.labeled.icon.inverted.button href=https://arkservers.net/server//173.208.68.154:27075/upvote class=orange
         i.icon class=star
         span Vote for us
-      a.ui.left.labeled.icon.inverted.button href=ts3server://bestarkserver.typefrag.com class=purple
+      a.ui.left.labeled.icon.inverted.button href=http://chat.bestarkserver.com class=blue
         i.icon class=unmute
-        span Teamspeak
+        span Chat with us on Discord
       a.ui.left.labeled.icon.inverted.button href=http://steamcommunity.com/groups/BestArkServer class=grey
         i.icon class=steam
         span Steam Community
