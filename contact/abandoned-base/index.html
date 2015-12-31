@@ -33,7 +33,7 @@
         <p>Help us out by reporting clearly abandoned structures, we can use this for our clean up events to free up premium space on the server.</p>
         <form class="ui form" action="https://getsimpleform.com/messages?form_api_token=8698420a515f5cd58ac42587c5b95bf1" method="post" enctype="multipart/form-data">
     <input type="hidden" name="subject" value="AbandonedBase" />
-    <input type='hidden' name='redirect_to' value="http://www.bestarkserver.com/thankyou/" />
+    <input type='hidden' name='redirect_to' value="http://localhost:1313/thankyou/" />
     <div class="ui two column middle aligned very relaxed stackable grid relative">
         <div class="field column">
             <label>Image Link</label>
@@ -106,5 +106,8 @@
         $(".footer").stickyFooter({css:{opacity: 1}});
     });
 </script>
-</body>
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>
