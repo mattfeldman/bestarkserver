@@ -47,26 +47,27 @@ data:
       icon: trophy
 
   rules:
-    - title: "Have fun - don't spoil others fun"
-      details: "Really, we're all trying to have fun here, so do whatever is fun to you, but please try to be a good neighbor and consider others."
+    do:
+      - title: "Have fun - don't spoil others fun"
+        details: "Really, we're all trying to have fun here, so do whatever is fun to you, but please try to be a good neighbor and consider others."
 
-    - title: "No building at spires"
-      details: "These building areas are reserved."
+      - title: "Spread out"
+        details: "Out of respect for others please do not start building close to another tribe's build without their permission"
 
-    - title: "No abusive/hateful speech"
-      details: "We want to ensure the server is a healthy environment for everyone. We're concerned here with public chat, we do not want global filled with private arguments and inflamatory humor."
+      - title: "Keep track of your Dinosaurs"
+        details: "Do not leave your tames on wander/aggressive. Please keep your dinos in your base."
+    dont:
+      - title: "No blocking dense resource nodes"
+        details: "Areas like the 'volcano' have dense resources spawns for crystal/obsidian/metal, placing structures near the resource nodes can interfere with the spawn. You can build on the perimeter so you can still be close to the nodes without them from spawning."
 
-    - title: "No blocking dense resource nodes"
-      details: "Areas like the 'volcano' have dense resources spawns for crystal/obsidian/metal, placing structures near the resource nodes can interfere with the spawn. You can build on the perimeter so you can still be close to the nodes without them from spawning."
+      - title: "No laggy massive bases or dino hordes"
+        details: "Build whatever base and collect whatever dinosaurs you need. We're concerned with excessive dino populations and bases that are known sources of lag on the server."
 
-    - title: "Spread out"
-      details: "Out of respect for others please do not start building close to another tribe's build without their permission"
+      - title: "No building at spires"
+        details: "These building areas are reserved."
 
-    - title: "Keep track of your Dinosaurs"
-      details: "Do not leave your tames on wander/aggressive. Please keep your dinos in your base."
-
-    - title: "No laggy massive bases or dino hordes"
-      details: "Build whatever base and collect whatever dinosaurs you need. We're concerned with excessive dino populations and bases that are known sources of lag on the server."
+      - title: "No abusive/hateful speech"
+        details: "We want to ensure the server is a healthy environment for everyone. We're concerned here with public chat, we do not want global filled with private arguments and inflamatory humor."
   about: >
     We are a **casual PVE ark server** with beginner friendly rates. The server was spawned out of the
     fustration of finding a stable PVE centric community. Our goal was to create an open community of regular ark players. The server is currently based in **Dallas, Texas**

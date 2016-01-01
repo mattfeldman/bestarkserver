@@ -3,11 +3,22 @@
     i.warning.sign.icon
     .content Rules
       .sub.header Play nice
-  .ui.container
-    .ui.relaxed.huge.list
-      {{ range .Site.Data.ark.data.rules }}
-        .item
-          .content
-            .ui.header {{ .title }}
-            {{ .details }}
-      {{ end }}
+  .ui.equal.width.stackable.grid.container
+    .column
+      .ui.big.relaxed.list
+        {{ range .Site.Data.ark.data.rules.do }}
+          .item
+            i.check.icon.label
+            .content
+              .ui.header {{ .title }}
+              {{ .details }}
+        {{ end }}
+    .column
+      .ui.big.relaxed.list
+        {{ range .Site.Data.ark.data.rules.dont }}
+          .item
+            i.x.icon.label
+            .content
+              .ui.header {{ .title }}
+              {{ .details }}
+        {{ end }}
