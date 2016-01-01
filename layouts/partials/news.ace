@@ -1,4 +1,7 @@
 .ui.vertical.secondary.stripe.segment#news
-  .ui.text.container.rss-container
-    h1.ui.header News
+  h1.ui.header.container
+    i.newspaper.icon
+    .content News
+      .sub.header News posted to our steam group.
+  .ui.container.rss-container
     .ui.active.centered.large.inline.text.news.loader Loading

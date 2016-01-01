@@ -1,11 +1,14 @@
 {{ $urlPre := "http://api.embed.ly/1/extract?key=14045eca3d45445aa1f234d96aaad59d&url=http%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D" }}
   .ui.vertical.secondary.stripe.segment#mods
-    .ui.text.container
-      h1 style="color: black;" Mods
+    h1.ui.header.container
+      i.plug.icon
+      .content Mods
+        .sub.header From the Ark Steam Workshop
+    .ui.container
       p These are the mods we run or plan on running on the server. For best performance subscribe to these mods with the steam account you play on the server with.
       p If you're having trouble with mods installing make sure you
         a href=http://gaming.stackexchange.com/a/144275  enable downloads in steam settings
-    .ui.three.column.center.aligned.page.grid.padded
+    .ui.three.column.center.aligned.container.grid
       {{ range .Site.Data.ark.data.mods }}
         .column
           a.ui.fluid.image.link.violet.card href=http://steamcommunity.com/sharedfiles/filedetails/?id={{.}}

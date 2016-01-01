@@ -1,6 +1,9 @@
 .ui.vertical.stripe.segment.inverted#screenshots
-  .ui.text.container
-    h1.header Screenshots
+  .ui.container
+    h1.ui.inverted.header.container
+      i.photo.icon
+      .content Screenshots
+        .sub.header From our server
     p
       span These screenshots were taken on our server. You can submit a new screenshot
       a href=/contact/screenshot  here.

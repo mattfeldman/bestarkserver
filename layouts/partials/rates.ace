@@ -1,6 +1,9 @@
 .ui.vertical.tertiary.stripe.segment#rates
-  .ui.text.container
-    h1.inverted Rates
+  h1.ui.header.container
+    i.tasks.icon
+    .content Rates
+      .sub.header Friendly PVE Rates
+  .ui.container
     .ui.four.statistics
       {{ range .Site.Data.ark.data.rates }}
         .ui.statistic

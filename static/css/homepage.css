@@ -63,6 +63,7 @@
 
 .ui.vertical.stripe p {
     font-size: 1.33em;
+    margin: 0 0 1em;
 }
 
 .ui.vertical.stripe .horizontal.divider {

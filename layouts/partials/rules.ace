@@ -1,6 +1,9 @@
 .ui.vertical.stripe.segment#rules
-  .ui.text.container
-    h1 Rules
+  h1.ui.header.container
+    i.warning.sign.icon
+    .content Rules
+      .sub.header Play nice
+  .ui.container
     .ui.relaxed.huge.list
       {{ range .Site.Data.ark.data.rules }}
         .item
