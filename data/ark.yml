@@ -1,10 +1,17 @@
 data:
   mods:
-    - "479295136"
     - "520879363"
     - "509793590"
     - "529801313"
     - "531396658"
+    - "566885854"
+    - "510590313"
+    - "502961364"
+    - "539464369"
+    - "535821068"
+    - "564895376"
+    - "520953653"
+    - "544598236"
   screenshots: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
   rates:
     - label: harvest
@@ -51,6 +58,15 @@ data:
 
     - title: "No blocking dense resource nodes"
       details: "Areas like the 'volcano' have dense resources spawns for crystal/obsidian/metal, placing structures near the resource nodes can interfere with the spawn. You can build on the perimeter so you can still be close to the nodes without them from spawning."
+
+    - title: "Spread out"
+      details: "Out of respect for others please do not start building close to another tribe's build without their permission"
+
+    - title: "Keep track of your Dinosaurs"
+      details: "Do not leave your tames on wander/aggressive. Please keep your dinos in your base."
+
+    - title: "No laggy massive bases or dino hordes"
+      details: "Build whatever base and collect whatever dinosaurs you need. We're concerned with excessive dino populations and bases that are known sources of lag on the server."
   about: >
     We are a **casual PVE ark server** with beginner friendly rates. The server was spawned out of the
     fustration of finding a stable PVE centric community. Our goal was to create an open community of regular ark players. The server is currently based in **Dallas, Texas**
