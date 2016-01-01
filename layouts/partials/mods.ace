@@ -15,7 +15,7 @@
                 img src={{ .url }}
               {{end}}
             .content
-              .header {{$dataJ.title}}
-              .description.left.aligned {{$dataJ.description}}
+              .header {{replace $dataJ.title "Steam Workshop ::" ""}}
             .extra.content
+              .description.left.aligned {{$dataJ.description}}
       {{end}}
