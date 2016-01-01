@@ -5,6 +5,6 @@
       {{ range .Site.Data.ark.data.rules }}
         .item
           .content
-            .header {{ .title }}
+            .ui.header {{ .title }}
             {{ .details }}
       {{ end }}
