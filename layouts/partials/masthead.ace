@@ -1,4 +1,6 @@
 .ui.inverted.vertical.header.masthead.center.aligned.segment#masthead
+  video loop= muted= autoplay= poster="images/video-poster.jpg" class="intro-video"
+    source src="ark.mp4" type="video/mp4"
   .ui.container
     .ui.huge.secondary.inverted.pointing.menu
       a.toc.item
