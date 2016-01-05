@@ -13,11 +13,15 @@
 .masthead.segment {
     min-height: 700px;
 }
-.header.segment, .masthead.segment {
+.header.segment, .masthead.segment  {
     padding: 1em 0em;
+}
+.static.header {
+    background-image: url("/images/background-purple.jpg") !important;
+    background-size: cover !important;
+}
+#masthead {
     background-color: rgba(40,0,40,0.4) !important;
-    /*background-image: url("/images/background-purple.jpg") !important;
-    background-size: cover !important;*/
 }
 
 .header .ui.secondary.inverted.pointing.menu{
