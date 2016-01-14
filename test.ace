@@ -1,0 +1,5 @@
+.ui.three.columns
+    .column
+        p foo bar
+    .column
+        p foo bar
