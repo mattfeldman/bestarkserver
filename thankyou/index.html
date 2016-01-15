@@ -5,27 +5,31 @@
     <link rel="stylesheet" type="text/css" href='/assets/semantic/dist/semantic.min.css'/>
     <link rel="stylesheet" type="text/css" href='/css/homepage.css'/>
 </head>
-<body class="pushable">
-
-<div class="pusher">
-    <div class="ui inverted vertical header center aligned segment">
-        <div class="ui container">
-            <div class="ui huge secondary inverted pointing menu">
-                <a class="item" href="/">Home</a>
-                <a class="item" href="/contact">Contact</a>
-            </div>
-        </div>
-        <div class="ui text container">
-            <h1 class="ui inverted header">Thank You</h1>
-            <h3 class="ui inverted header">Best Ark Server</h3>
+<div class="ui inverted vertical static header center aligned segment">
+    <div class="ui container">
+        <div class="ui huge secondary inverted pointing menu">
+            <a class="item" href="/">Home</a>
+            <a class="item active" href="/contact">Contact</a>
         </div>
     </div>
+    <div class="ui text container">
+        <h1 class="ui inverted header">Thank You</h1>
+        <h3 class="ui inverted header">Best Ark Server</h3>
+    </div>
+</div>
 
-    <div class="ui vertical stripe segment text container">
+<div class="ui vertical stripe segment text container">
+    <div class="ui breadcrumb">
+        <a href="/" class="section">Home</a>
+        <span class="divider">/</span>
+        <div class="section">Contact</div>
+    </div>
+    <div class="ui vertical segment">
         <h1>Thank you for your feedback</h1>
 <p>Your submission has been recorded. We value suggestions from our community.</p>
     </div>
-    <div class="ui vertical footer segment">
+</div>
+<div class="ui vertical footer segment">
     <div class="ui container">
         <div class="ui stackable divided equal height stackable grid">
             <div class="three wide column"><h4 class="ui header">About</h4>
@@ -61,7 +65,6 @@
     ga('send', 'pageview');
 
 </script>
-</div>
 
 <script src="/assets/jquery/dist/jquery.min.js"></script>
 <script src="/assets/semantic/dist/semantic.min.js"></script>
