@@ -9,39 +9,28 @@
     <atom:link href="http://www.bestarkserver.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Find an abandoned base?</title>
-      <link>http://www.bestarkserver.com/contact/abandoned-base/</link>
+      <title>Contact Admin</title>
+      <link>http://www.bestarkserver.com/contact/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.bestarkserver.com/contact/abandoned-base/</guid>
-      <description>&lt;form class=&#34;ui form&#34; action=&#34;https://getsimpleform.com/messages?form_api_token=8698420a515f5cd58ac42587c5b95bf1&#34; method=&#34;post&#34; enctype=&#34;multipart/form-data&#34;&gt;
-    &lt;input type=&#34;hidden&#34; name=&#34;subject&#34; value=&#34;AbandonedBase&#34; /&gt;
+      <guid>http://www.bestarkserver.com/contact/admin/</guid>
+      <description>&lt;form class=&#34;ui form&#34; action=&#34;https://getsimpleform.com/messages?form_api_token=8698420a515f5cd58ac42587c5b95bf1&#34; method=&#34;post&#34;&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;subject&#34; value=&#34;Admin Contact&#34; /&gt;
     &lt;input type=&#39;hidden&#39; name=&#39;redirect_to&#39; value=&#34;http://www.bestarkserver.com/thankyou/&#34; /&gt;
-    &lt;div class=&#34;ui two column middle aligned very relaxed stackable grid relative&#34;&gt;
-        &lt;div class=&#34;field column&#34;&gt;
-            &lt;label&gt;Image Link&lt;/label&gt;
-            &lt;input name=&#34;link&#34;/&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;ui divider vertical&#34;&gt;
-            Or
-        &lt;/div&gt;
-        &lt;div class=&#34;field column&#34;&gt;
-            &lt;label&gt;Upload Screenshot&lt;/label&gt;
-            &lt;input type=&#34;file&#34; name=&#34;screenshot&#34;&gt;
-        &lt;/div&gt;
+    &lt;div class=&#34;field&#34;&gt;
+        &lt;label&gt;Ark Player Name&lt;/label&gt;
+        &lt;input name=&#34;player&#34;/&gt;
     &lt;/div&gt;
     &lt;div class=&#34;field&#34;&gt;
-        &lt;label&gt;Map Coordinates&lt;/label&gt;
-        &lt;input name=&#34;coordinates&#34; placeholder=&#34;lat / long&#34;&gt;
+        &lt;label&gt;Email Address&lt;/label&gt;
+        &lt;input name=&#34;email&#34;/&gt;
     &lt;/div&gt;
     &lt;div class=&#34;field&#34;&gt;
-        &lt;label&gt;Notes&lt;/label&gt;
-        &lt;input name=&#34;notes&#34; placeholder=&#34;Any additional notes or description.&#34;&gt;
+        &lt;label&gt;Message&lt;/label&gt;
+        &lt;textarea name=&#34;message&#34;&gt;&lt;/textarea&gt;
     &lt;/div&gt;
     &lt;input type=&#34;submit&#34; class=&#34;ui violet button&#34;/&gt;
-&lt;/form&gt;
-
-</description>
+&lt;/form&gt;</description>
     </item>
     
     <item>
@@ -66,28 +55,14 @@
     </item>
     
     <item>
-      <title>Contact Admin</title>
-      <link>http://www.bestarkserver.com/contact/admin/</link>
+      <title></title>
+      <link>http://www.bestarkserver.com/rules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.bestarkserver.com/contact/admin/</guid>
-      <description>&lt;form class=&#34;ui form&#34; action=&#34;https://getsimpleform.com/messages?form_api_token=8698420a515f5cd58ac42587c5b95bf1&#34; method=&#34;post&#34;&gt;
-    &lt;input type=&#34;hidden&#34; name=&#34;subject&#34; value=&#34;Admin Contact&#34; /&gt;
-    &lt;input type=&#39;hidden&#39; name=&#39;redirect_to&#39; value=&#34;http://www.bestarkserver.com/thankyou/&#34; /&gt;
-    &lt;div class=&#34;field&#34;&gt;
-        &lt;label&gt;Ark Player Name&lt;/label&gt;
-        &lt;input name=&#34;player&#34;/&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;field&#34;&gt;
-        &lt;label&gt;Email Address&lt;/label&gt;
-        &lt;input name=&#34;email&#34;/&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;field&#34;&gt;
-        &lt;label&gt;Message&lt;/label&gt;
-        &lt;textarea name=&#34;message&#34;&gt;&lt;/textarea&gt;
-    &lt;/div&gt;
-    &lt;input type=&#34;submit&#34; class=&#34;ui violet button&#34;/&gt;
-&lt;/form&gt;</description>
+      <guid>http://www.bestarkserver.com/rules/</guid>
+      <description>&lt;div class=&#34;ui segment&#34;&gt;
+    {{partial &#34;rules&#34; .}}
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -126,13 +101,76 @@
     </item>
     
     <item>
-      <title></title>
-      <link>http://www.bestarkserver.com/rules/</link>
+      <title>Find an abandoned base?</title>
+      <link>http://www.bestarkserver.com/contact/abandoned-base/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.bestarkserver.com/rules/</guid>
-      <description>&lt;div class=&#34;ui segment&#34;&gt;
-    {{partial &#34;rules&#34; .}}
+      <guid>http://www.bestarkserver.com/contact/abandoned-base/</guid>
+      <description>&lt;form class=&#34;ui form&#34; action=&#34;https://getsimpleform.com/messages?form_api_token=8698420a515f5cd58ac42587c5b95bf1&#34; method=&#34;post&#34; enctype=&#34;multipart/form-data&#34;&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;subject&#34; value=&#34;AbandonedBase&#34; /&gt;
+    &lt;input type=&#39;hidden&#39; name=&#39;redirect_to&#39; value=&#34;http://www.bestarkserver.com/thankyou/&#34; /&gt;
+    &lt;div class=&#34;ui two column middle aligned very relaxed stackable grid relative&#34;&gt;
+        &lt;div class=&#34;field column&#34;&gt;
+            &lt;label&gt;Image Link&lt;/label&gt;
+            &lt;input name=&#34;link&#34;/&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;ui divider vertical&#34;&gt;
+            Or
+        &lt;/div&gt;
+        &lt;div class=&#34;field column&#34;&gt;
+            &lt;label&gt;Upload Screenshot&lt;/label&gt;
+            &lt;input type=&#34;file&#34; name=&#34;screenshot&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;field&#34;&gt;
+        &lt;label&gt;Map Coordinates&lt;/label&gt;
+        &lt;input name=&#34;coordinates&#34; placeholder=&#34;lat / long&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;field&#34;&gt;
+        &lt;label&gt;Notes&lt;/label&gt;
+        &lt;input name=&#34;notes&#34; placeholder=&#34;Any additional notes or description.&#34;&gt;
+    &lt;/div&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;ui violet button&#34;/&gt;
+&lt;/form&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Staff</title>
+      <link>http://www.bestarkserver.com/staff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/staff/</guid>
+      <description>&lt;div class=&#34;ui list&#34;&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;img class=&#34;ui avatar image&#34; src=&#34;http://www.bestarkserver.com/images/avatars/deca.jpg&#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;
+            &lt;h4 class=&#34;ui red header&#34;&gt;deca&lt;/h4&gt;
+            &lt;div class=&#34;description&#34;&gt;Owner&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;img class=&#34;ui avatar image&#34; src=&#34;http://www.bestarkserver.com/images/avatars/hydra.jpg&#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;
+            &lt;h4 class=&#34;ui red header&#34;&gt;Hydra&lt;/h4&gt;
+            &lt;div class=&#34;description&#34;&gt;Admin&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;img class=&#34;ui avatar image&#34; src=&#34;http://www.bestarkserver.com/images/avatars/metatrox.jpg&#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;
+            &lt;h4 class=&#34;ui teal header&#34;&gt;Metatrox&lt;/h4&gt;
+            &lt;div class=&#34;description&#34;&gt;Moderator&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;img class=&#34;ui avatar image&#34; src=&#34;http://www.bestarkserver.com/images/avatars/shiyan.jpg&#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;
+            &lt;h4 class=&#34;ui teal header&#34;&gt;Shiyan&lt;/h4&gt;
+            &lt;div class=&#34;description&#34;&gt;Moderator&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;</description>
     </item>
     
