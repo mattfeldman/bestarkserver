@@ -6,12 +6,7 @@
     <link rel="stylesheet" type="text/css" href='/css/homepage.css'/>
 </head>
 <div class="ui inverted vertical static header center aligned segment">
-    <div class="ui container">
-        <div class="ui huge secondary inverted pointing menu">
-            <a class="item" href="/">Home</a>
-            <a class="item active" href="/contact">Contact</a>
-        </div>
-    </div>
+    {{partial "page-nav" .}}
     <div class="ui text container">
         <h1 class="ui inverted header">{{.Title}}</h1>
         <h3 class="ui inverted header">Best Ark Server</h3>
