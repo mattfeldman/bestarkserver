@@ -28,11 +28,11 @@ data:
       icon: lightning
 
     - label: level cap
-      rate: 205
+      rate: 200+5
       icon: flag
 
     - label: dino cap
-      rate: 285
+      rate: 240
       icon: paw
 
     - label: dino breed
@@ -43,9 +43,9 @@ data:
       rate: 10
       icon: bug
 
-    - label: prestige levels
-      rate: 5
-      icon: trophy
+    - label: dino food rate
+      rate: 2
+      icon: food
 
   rules:
     do:
