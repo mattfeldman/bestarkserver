@@ -98,24 +98,18 @@
       <guid>http://www.bestarkserver.com/magic/</guid>
       <description>&lt;div class=&#34;ui header&#34;&gt;
     &lt;i class=&#34;ui magic icon&#34;&gt;&lt;/i&gt;
-    &lt;div class=&#34;content&#34;&gt;Magic&lt;/div&gt;
+    &lt;div class=&#34;content&#34;&gt;Magic
+        &lt;div class=&#34;sub header&#34;&gt;
+            Our custom server plugin
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;We&#39;re running custom www.bestarkserver.com plugin called magic, you might notice it talkign in chat. This is perfectly normal&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Magic&lt;/b&gt; is a webservice that talks to ark, interacts with chat, and performs remote commands. You might notice it talking in chat. This is perfectly normal&lt;/p&gt;
 &lt;img class=&#34;center aligned image&#34; src=&#34;https://cloud.githubusercontent.com/assets/121500/12407057/15797e22-be08-11e5-9b45-fcf0e4b42680.png&#34;/&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;Please be patient with any extra messages as magic is currently under development. More information to come...&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.bestarkserver.com/rules/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.bestarkserver.com/rules/</guid>
-      <description>&lt;div class=&#34;ui segment&#34;&gt;
-    {{partial &#34;rules&#34; .}}
-&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -151,6 +145,17 @@
 &lt;/form&gt;
 
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.bestarkserver.com/rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/rules/</guid>
+      <description>&lt;div class=&#34;ui segment&#34;&gt;
+    {{partial &#34;rules&#34; .}}
+&lt;/div&gt;</description>
     </item>
     
     <item>
