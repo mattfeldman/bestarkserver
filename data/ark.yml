@@ -29,7 +29,7 @@ data:
       icon: lightning
 
     - label: level cap
-      rate: 200+5
+      rate: 200+10
       icon: flag
 
     - label: dino cap
