@@ -11,6 +11,10 @@
   </url>
   
   <url>
+    <loc>http://www.bestarkserver.com/contact/screenshot/</loc>
+  </url>
+  
+  <url>
     <loc>http://www.bestarkserver.com/contact/abandoned-base/</loc>
   </url>
   
@@ -19,7 +23,7 @@
   </url>
   
   <url>
-    <loc>http://www.bestarkserver.com/contact/screenshot/</loc>
+    <loc>http://www.bestarkserver.com/rules/</loc>
   </url>
   
   <url>
@@ -27,15 +31,11 @@
   </url>
   
   <url>
-    <loc>http://www.bestarkserver.com/rules/</loc>
+    <loc>http://www.bestarkserver.com/thankyou/</loc>
   </url>
   
   <url>
     <loc>http://www.bestarkserver.com/staff/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.bestarkserver.com/thankyou/</loc>
   </url>
   
 </urlset>
