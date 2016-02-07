@@ -9,6 +9,15 @@
     <atom:link href="http://www.bestarkserver.com/contact/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Apply/Suggest Staff</title>
+      <link>http://www.bestarkserver.com/contact/apply/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/contact/apply/</guid>
+      <description>&lt;script src=&#34;https://static.airtable.com/js/embed/embed_snippet_v1.js&#34;&gt;&lt;/script&gt;&lt;iframe class=&#34;airtable-embed airtable-dynamic-height&#34; src=&#34;https://airtable.com/embed/shrpOpZQyCGI5tbqq?&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;838&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
       <title>Contact Admin</title>
       <link>http://www.bestarkserver.com/contact/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
