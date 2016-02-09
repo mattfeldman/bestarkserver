@@ -9,6 +9,24 @@
     <atom:link href="http://www.bestarkserver.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Apply/Suggest Staff</title>
+      <link>http://www.bestarkserver.com/contact/apply/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/contact/apply/</guid>
+      <description>&lt;script src=&#34;https://static.airtable.com/js/embed/embed_snippet_v1.js&#34;&gt;&lt;/script&gt;&lt;iframe class=&#34;airtable-embed airtable-dynamic-height&#34; src=&#34;https://airtable.com/embed/shrpOpZQyCGI5tbqq?&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;838&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Suggest a Mod</title>
+      <link>http://www.bestarkserver.com/contact/mod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/contact/mod/</guid>
+      <description>&lt;iframe src=&#34;https://airtable.com/embed/shrESyayNBDF9grml?&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
       <title>Find an abandoned base?</title>
       <link>http://www.bestarkserver.com/contact/abandoned-base/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -70,15 +88,6 @@
     </item>
     
     <item>
-      <title>Suggest a Mod</title>
-      <link>http://www.bestarkserver.com/contact/mod/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.bestarkserver.com/contact/mod/</guid>
-      <description>&lt;iframe src=&#34;https://airtable.com/embed/shrESyayNBDF9grml?&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;&lt;/iframe&gt;</description>
-    </item>
-    
-    <item>
       <title>Submit Screenshot</title>
       <link>http://www.bestarkserver.com/contact/screenshot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -87,6 +96,44 @@
       <description>&lt;script src=&#34;https://static.airtable.com/js/embed/embed_snippet_v1.js&#34;&gt;&lt;/script&gt;&lt;iframe class=&#34;airtable-embed airtable-dynamic-height&#34; src=&#34;https://airtable.com/embed/shrqzOGDOngl3itBQ?&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;659&#34;&gt;&lt;/iframe&gt;
 
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.bestarkserver.com/rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/rules/</guid>
+      <description>&lt;div class=&#34;ui segment&#34;&gt;
+    {{partial &#34;rules&#34; .}}
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>donate</title>
+      <link>http://www.bestarkserver.com/donate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/donate/</guid>
+      <description>&lt;p&gt;You can use this paypal button to make a donation to the server.&lt;/p&gt;
+&lt;form action=&#34;https://www.paypal.com/cgi-bin/webscr&#34; method=&#34;post&#34; target=&#34;_top&#34;&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;cmd&#34; value=&#34;_s-xclick&#34;&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;hosted_button_id&#34; value=&#34;JAUTQMALHPKUN&#34;&gt;
+    &lt;input type=&#34;image&#34; src=&#34;https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif&#34; border=&#34;0&#34; name=&#34;submit&#34; alt=&#34;PayPal - The safer, easier way to pay online!&#34;&gt;
+    &lt;img alt=&#34;&#34; border=&#34;0&#34; src=&#34;https://www.paypalobjects.com/en_US/i/scr/pixel.gif&#34; width=&#34;1&#34; height=&#34;1&#34;&gt;
+&lt;/form&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Thank You</title>
+      <link>http://www.bestarkserver.com/thankyou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/thankyou/</guid>
+      <description>&lt;h1&gt;Thank you for your feedback&lt;/h1&gt;
+&lt;p&gt;Your submission has been recorded. We value suggestions from our community.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -147,36 +194,6 @@
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.bestarkserver.com/rules/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.bestarkserver.com/rules/</guid>
-      <description>&lt;div class=&#34;ui segment&#34;&gt;
-    {{partial &#34;rules&#34; .}}
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Thank You</title>
-      <link>http://www.bestarkserver.com/thankyou/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.bestarkserver.com/thankyou/</guid>
-      <description>&lt;h1&gt;Thank you for your feedback&lt;/h1&gt;
-&lt;p&gt;Your submission has been recorded. We value suggestions from our community.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Apply/Suggest Staff</title>
-      <link>http://www.bestarkserver.com/contact/apply/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.bestarkserver.com/contact/apply/</guid>
-      <description>&lt;script src=&#34;https://static.airtable.com/js/embed/embed_snippet_v1.js&#34;&gt;&lt;/script&gt;&lt;iframe class=&#34;airtable-embed airtable-dynamic-height&#34; src=&#34;https://airtable.com/embed/shrpOpZQyCGI5tbqq?&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;838&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     
   </channel>
