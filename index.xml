@@ -10,10 +10,10 @@
     
     <item>
       <title>Contact Admin</title>
-      <link>http://www.bestarkserver.com/contacts/admin/</link>
+      <link>http://www.bestarkserver.com/contact/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.bestarkserver.com/contacts/admin/</guid>
+      <guid>http://www.bestarkserver.com/contact/admin/</guid>
       <description>&lt;form class=&#34;ui form&#34; action=&#34;https://getsimpleform.com/messages?form_api_token=8698420a515f5cd58ac42587c5b95bf1&#34; method=&#34;post&#34;&gt;
     &lt;input type=&#34;hidden&#34; name=&#34;subject&#34; value=&#34;Admin Contact&#34; /&gt;
     &lt;input type=&#39;hidden&#39; name=&#39;redirect_to&#39; value=&#34;http://www.bestarkserver.com/thankyou/&#34; /&gt;
@@ -34,11 +34,20 @@
     </item>
     
     <item>
-      <title>Find an abandoned base?</title>
-      <link>http://www.bestarkserver.com/contacts/abandoned-base/</link>
+      <title>Apply/Suggest Staff</title>
+      <link>http://www.bestarkserver.com/contact/apply/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.bestarkserver.com/contacts/abandoned-base/</guid>
+      <guid>http://www.bestarkserver.com/contact/apply/</guid>
+      <description>&lt;script src=&#34;https://static.airtable.com/js/embed/embed_snippet_v1.js&#34;&gt;&lt;/script&gt;&lt;iframe class=&#34;airtable-embed airtable-dynamic-height&#34; src=&#34;https://airtable.com/embed/shrpOpZQyCGI5tbqq?&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;838&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Find an abandoned base?</title>
+      <link>http://www.bestarkserver.com/contact/abandoned-base/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/contact/abandoned-base/</guid>
       <description>&lt;form class=&#34;ui form&#34; action=&#34;https://getsimpleform.com/messages?form_api_token=8698420a515f5cd58ac42587c5b95bf1&#34; method=&#34;post&#34; enctype=&#34;multipart/form-data&#34;&gt;
     &lt;input type=&#34;hidden&#34; name=&#34;subject&#34; value=&#34;AbandonedBase&#34; /&gt;
     &lt;input type=&#39;hidden&#39; name=&#39;redirect_to&#39; value=&#34;http://www.bestarkserver.com/thankyou/&#34; /&gt;
@@ -70,32 +79,14 @@
     </item>
     
     <item>
-      <title>Suggest a Mod</title>
-      <link>http://www.bestarkserver.com/contacts/mod/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.bestarkserver.com/contacts/mod/</guid>
-      <description>&lt;iframe src=&#34;https://airtable.com/embed/shrESyayNBDF9grml?&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;&lt;/iframe&gt;</description>
-    </item>
-    
-    <item>
       <title>Submit Screenshot</title>
-      <link>http://www.bestarkserver.com/contacts/screenshot/</link>
+      <link>http://www.bestarkserver.com/contact/screenshot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.bestarkserver.com/contacts/screenshot/</guid>
+      <guid>http://www.bestarkserver.com/contact/screenshot/</guid>
       <description>&lt;script src=&#34;https://static.airtable.com/js/embed/embed_snippet_v1.js&#34;&gt;&lt;/script&gt;&lt;iframe class=&#34;airtable-embed airtable-dynamic-height&#34; src=&#34;https://airtable.com/embed/shrqzOGDOngl3itBQ?&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;659&#34;&gt;&lt;/iframe&gt;
 
 </description>
-    </item>
-    
-    <item>
-      <title>Apply/Suggest Staff</title>
-      <link>http://www.bestarkserver.com/contacts/apply/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.bestarkserver.com/contacts/apply/</guid>
-      <description>&lt;script src=&#34;https://static.airtable.com/js/embed/embed_snippet_v1.js&#34;&gt;&lt;/script&gt;&lt;iframe class=&#34;airtable-embed airtable-dynamic-height&#34; src=&#34;https://airtable.com/embed/shrpOpZQyCGI5tbqq?&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;838&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     
     <item>
@@ -113,6 +104,26 @@
 &lt;/form&gt;
 
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.bestarkserver.com/rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/rules/</guid>
+      <description>&lt;div class=&#34;ui segment&#34;&gt;
+    {{partial &#34;rules&#34; .}}
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.bestarkserver.com/screenshots/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/screenshots/test/</guid>
+      <description>TEST</description>
     </item>
     
     <item>
@@ -138,23 +149,12 @@
     </item>
     
     <item>
-      <title></title>
-      <link>http://www.bestarkserver.com/rules/</link>
+      <title>Suggest a Mod</title>
+      <link>http://www.bestarkserver.com/contact/mod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.bestarkserver.com/rules/</guid>
-      <description>&lt;div class=&#34;ui segment&#34;&gt;
-    {{partial &#34;rules&#34; .}}
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.bestarkserver.com/screenshots/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.bestarkserver.com/screenshots/test/</guid>
-      <description>TEST</description>
+      <guid>http://www.bestarkserver.com/contact/mod/</guid>
+      <description>&lt;iframe src=&#34;https://airtable.com/embed/shrESyayNBDF9grml?&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     
     <item>

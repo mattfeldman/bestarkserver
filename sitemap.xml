@@ -7,31 +7,23 @@
   </url>
   
   <url>
-    <loc>http://www.bestarkserver.com/contacts/admin/</loc>
+    <loc>http://www.bestarkserver.com/contact/admin/</loc>
   </url>
   
   <url>
-    <loc>http://www.bestarkserver.com/contacts/abandoned-base/</loc>
+    <loc>http://www.bestarkserver.com/contact/apply/</loc>
   </url>
   
   <url>
-    <loc>http://www.bestarkserver.com/contacts/mod/</loc>
+    <loc>http://www.bestarkserver.com/contact/abandoned-base/</loc>
   </url>
   
   <url>
-    <loc>http://www.bestarkserver.com/contacts/screenshot/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.bestarkserver.com/contacts/apply/</loc>
+    <loc>http://www.bestarkserver.com/contact/screenshot/</loc>
   </url>
   
   <url>
     <loc>http://www.bestarkserver.com/donate/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.bestarkserver.com/magic/</loc>
   </url>
   
   <url>
@@ -40,6 +32,14 @@
   
   <url>
     <loc>http://www.bestarkserver.com/screenshots/test/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.bestarkserver.com/magic/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.bestarkserver.com/contact/mod/</loc>
   </url>
   
   <url>
