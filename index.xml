@@ -9,37 +9,21 @@
     <atom:link href="http://www.bestarkserver.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Contact Admin</title>
-      <link>http://www.bestarkserver.com/contact/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.bestarkserver.com/contact/admin/</guid>
-      <description>&lt;form class=&#34;ui form&#34; action=&#34;https://getsimpleform.com/messages?form_api_token=8698420a515f5cd58ac42587c5b95bf1&#34; method=&#34;post&#34;&gt;
-    &lt;input type=&#34;hidden&#34; name=&#34;subject&#34; value=&#34;Admin Contact&#34; /&gt;
-    &lt;input type=&#39;hidden&#39; name=&#39;redirect_to&#39; value=&#34;http://www.bestarkserver.com/thankyou/&#34; /&gt;
-    &lt;div class=&#34;field&#34;&gt;
-        &lt;label&gt;Ark Player Name&lt;/label&gt;
-        &lt;input name=&#34;player&#34;/&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;field&#34;&gt;
-        &lt;label&gt;Email Address&lt;/label&gt;
-        &lt;input name=&#34;email&#34;/&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;field&#34;&gt;
-        &lt;label&gt;Message&lt;/label&gt;
-        &lt;textarea name=&#34;message&#34;&gt;&lt;/textarea&gt;
-    &lt;/div&gt;
-    &lt;input type=&#34;submit&#34; class=&#34;ui violet button&#34;/&gt;
-&lt;/form&gt;</description>
-    </item>
-    
-    <item>
       <title>Apply/Suggest Staff</title>
       <link>http://www.bestarkserver.com/contact/apply/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.bestarkserver.com/contact/apply/</guid>
       <description>&lt;script src=&#34;https://static.airtable.com/js/embed/embed_snippet_v1.js&#34;&gt;&lt;/script&gt;&lt;iframe class=&#34;airtable-embed airtable-dynamic-height&#34; src=&#34;https://airtable.com/embed/shrpOpZQyCGI5tbqq?&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;838&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Suggest a Mod</title>
+      <link>http://www.bestarkserver.com/contact/mod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/contact/mod/</guid>
+      <description>&lt;iframe src=&#34;https://airtable.com/embed/shrESyayNBDF9grml?&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     
     <item>
@@ -108,17 +92,6 @@
     
     <item>
       <title></title>
-      <link>http://www.bestarkserver.com/rules/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.bestarkserver.com/rules/</guid>
-      <description>&lt;div class=&#34;ui segment&#34;&gt;
-    {{partial &#34;rules&#34; .}}
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>http://www.bestarkserver.com/screenshots/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -149,22 +122,14 @@
     </item>
     
     <item>
-      <title>Suggest a Mod</title>
-      <link>http://www.bestarkserver.com/contact/mod/</link>
+      <title></title>
+      <link>http://www.bestarkserver.com/rules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.bestarkserver.com/contact/mod/</guid>
-      <description>&lt;iframe src=&#34;https://airtable.com/embed/shrESyayNBDF9grml?&#34; frameborder=&#34;0&#34; onmousewheel=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;&lt;/iframe&gt;</description>
-    </item>
-    
-    <item>
-      <title>Thank You</title>
-      <link>http://www.bestarkserver.com/thankyou/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.bestarkserver.com/thankyou/</guid>
-      <description>&lt;h1&gt;Thank you for your feedback&lt;/h1&gt;
-&lt;p&gt;Your submission has been recorded. We value suggestions from our community.&lt;/p&gt;</description>
+      <guid>http://www.bestarkserver.com/rules/</guid>
+      <description>&lt;div class=&#34;ui segment&#34;&gt;
+    {{partial &#34;rules&#34; .}}
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -189,20 +154,55 @@
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item&#34;&gt;
+        &lt;img class=&#34;ui avatar image&#34; src=&#34;http://www.bestarkserver.com/images/avatars/shiyan.jpg&#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;
+            &lt;h4 class=&#34;ui red header&#34;&gt;Shiyan&lt;/h4&gt;
+            &lt;div class=&#34;description&#34;&gt;Admin&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item&#34;&gt;
         &lt;img class=&#34;ui avatar image&#34; src=&#34;http://www.bestarkserver.com/images/avatars/metatrox.jpg&#34;&gt;
         &lt;div class=&#34;content&#34;&gt;
             &lt;h4 class=&#34;ui teal header&#34;&gt;Metatrox&lt;/h4&gt;
             &lt;div class=&#34;description&#34;&gt;Moderator&lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class=&#34;item&#34;&gt;
-        &lt;img class=&#34;ui avatar image&#34; src=&#34;http://www.bestarkserver.com/images/avatars/shiyan.jpg&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;
-            &lt;h4 class=&#34;ui teal header&#34;&gt;Shiyan&lt;/h4&gt;
-            &lt;div class=&#34;description&#34;&gt;Moderator&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
 &lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Contact Admin</title>
+      <link>http://www.bestarkserver.com/contact/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/contact/admin/</guid>
+      <description>&lt;form class=&#34;ui form&#34; action=&#34;https://getsimpleform.com/messages?form_api_token=8698420a515f5cd58ac42587c5b95bf1&#34; method=&#34;post&#34;&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;subject&#34; value=&#34;Admin Contact&#34; /&gt;
+    &lt;input type=&#39;hidden&#39; name=&#39;redirect_to&#39; value=&#34;http://www.bestarkserver.com/thankyou/&#34; /&gt;
+    &lt;div class=&#34;field&#34;&gt;
+        &lt;label&gt;Ark Player Name&lt;/label&gt;
+        &lt;input name=&#34;player&#34;/&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;field&#34;&gt;
+        &lt;label&gt;Email Address&lt;/label&gt;
+        &lt;input name=&#34;email&#34;/&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;field&#34;&gt;
+        &lt;label&gt;Message&lt;/label&gt;
+        &lt;textarea name=&#34;message&#34;&gt;&lt;/textarea&gt;
+    &lt;/div&gt;
+    &lt;input type=&#34;submit&#34; class=&#34;ui violet button&#34;/&gt;
+&lt;/form&gt;</description>
+    </item>
+    
+    <item>
+      <title>Thank You</title>
+      <link>http://www.bestarkserver.com/thankyou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.bestarkserver.com/thankyou/</guid>
+      <description>&lt;h1&gt;Thank you for your feedback&lt;/h1&gt;
+&lt;p&gt;Your submission has been recorded. We value suggestions from our community.&lt;/p&gt;</description>
     </item>
     
   </channel>
