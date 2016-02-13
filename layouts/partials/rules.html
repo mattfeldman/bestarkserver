@@ -1,0 +1,37 @@
+<div class="ui vertical stripe segment" id="rules">
+    <h1 class="ui header container">
+        <i class="warning sign icon"></i>
+        <div class="content">
+            Rules
+            <div class="sub header">Play nice</div>
+        </div>
+    </h1>
+    <div class="ui equal width stackable grid container">
+        <div class="column">
+            <div class="ui big relaxed list">
+                {{ range .Site.Data.ark.data.rules.do }}
+                <div class="item">
+                    <i class="check icon label"></i>
+                    <div class="content">
+                        <div class="ui header">{{ .title }}</div>
+                        {{ .details }}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        <div class="column">
+            <div class="ui big relaxed list">
+                {{ range .Site.Data.ark.data.rules.dont }}
+                <div class="item">
+                    <i class="x icon label"></i>
+                    <div class="content">
+                        <div class="ui header">{{ .title }}</div>
+                        {{ .details }}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>

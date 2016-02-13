@@ -1,5 +1,0 @@
-.ui.container
-  .ui.huge.secondary.inverted.pointing.menu
-    a.item href="/" Home
-    a.item href="/contact" Contact
-    a.item href="/staff" Staff

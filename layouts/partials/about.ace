@@ -1,8 +1,0 @@
-.ui.vertical.stripe.segment.tertiary#about
-  .ui.text.container
-    h1 About
-    p..
-      {{.Site.Data.ark.data.about | markdownify}}
-  .ui.center.aligned.vertical.stripe.container
-    a href="http://www.gametracker.com/server_info/158.69.23.122:17615/" target="_blank"
-      img src="http://cache.www.gametracker.com/server_info/158.69.23.122:17615/b_560x95.png"

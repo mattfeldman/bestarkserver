@@ -1,0 +1,24 @@
+<div class="ui vertical tertiary stripe segment" id="rates">
+    <h1 class="ui header container">
+        <i class="tasks icon"></i>
+        <div class="content">
+            Rates
+            <div class="sub header">Friendly PVE Rates</div>
+        </div>
+    </h1>
+    <div class="ui container">
+        <div class="ui four statistics">
+            {{ range .Site.Data.ark.data.rates }}
+            <div class="ui statistic">
+                <div class="value">
+                    {{ .rate }}
+                </div>
+                <div class="label">
+                    <i class="ui icon {{.icon}}"></i>
+                    {{ .label }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>

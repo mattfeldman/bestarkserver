@@ -1,0 +1,22 @@
+<div class="ui vertical stripe segment inverted" id="screenshots">
+    <div class="ui container">
+        <h1 class="ui inverted header container">
+            <i class="photo icon"></i>
+            <div class="content">
+                Screenshots
+                <div class="sub header">From our server</div>
+            </div>
+        </h1>
+        <p>
+            <span>These screenshots were taken on our server. You can submit a new screenshot</span>
+            <a href=/contact/screenshot>here.</a>
+        </p>
+    </div>
+    <div class="ui padded container screenshots">
+        {{ range .Site.Data.ark.data.screenshots }}
+        <div class="ui image">
+            <img src="/images/screenshots/{{.}}.jpg">
+        </div>
+        {{end}}
+    </div>
+</div>
