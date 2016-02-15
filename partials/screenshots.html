@@ -13,10 +13,10 @@
         </p>
     </div>
     <div class="ui padded container screenshots">
-        {{ range .Site.Data.ark.data.screenshots }}
+        {{#each Ark.data.screenshots }}
         <div class="ui image">
             <img src="/images/screenshots/{{.}}.jpg">
         </div>
-        {{end}}
+        {{/each}}
     </div>
 </div>
