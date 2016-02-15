@@ -1,0 +1,23 @@
+{
+  "name": "bestarkserver",
+  "version": "1.0.0",
+  "description": "Website for https://www.bestarkserver.com built with Hugo. PRs welcome.",
+  "private": true,
+  "main": "build.js",
+  "dependencies": {
+    "metalsmith": "^2.1.0",
+    "metalsmith-markdown": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattfeldman/bestarkserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattfeldman/bestarkserver/issues"
+  },
+  "homepage": "https://github.com/mattfeldman/bestarkserver#readme"
+}
