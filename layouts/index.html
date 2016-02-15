@@ -2,29 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{.Site.Title}}</title>
+    <title>{{Site.Title}}</title>
     <link rel="stylesheet" type="text/css" href='assets/semantic/dist/semantic.min.css'/>
     <link rel="stylesheet" type="text/css" href='css/homepage.css'/>
     <link rel="stylesheet" type="text/css" href='assets/slick-carousel/slick/slick.css'/>
     <link rel="stylesheet" type="text/css" href='assets/slick-carousel/slick/slick-theme.css'/>
 </head>
 <body>
-    {{$ark := .Site.Data.ark.data}}
     <div class="ui large top inverted huge fixed hidden menu">
         <div class="ui container">
-            {{partial "homemenu" .}}
+            {{> homemenu }}
         </div>
     </div>
-    {{partial "masthead" .}}
-    {{partial "rates" .}}
-    {{partial "news" .}}
-    {{partial "rules" .}}
-    {{partial "mods" .}}
-    {{partial "chat" .}}
-    {{partial "screenshots" .}}
-    {{partial "about" .}}
-    {{partial "footer" .}}
+    {{> masthead }}
+    {{> rates }}
 
+    {{!! > news }}
+    {{!! > rules }}
+    {{!! > mods }}
+    {{!! > chat }}
+    {{!! > screenshots }}
+    {{!! > about }}
+    {{!! > footer }}
 
     <script src="assets/jquery/dist/jquery.min.js"></script>
     <script src="assets/semantic/dist/semantic.min.js"></script>
@@ -36,12 +35,12 @@
 
     <script>
         $(document).ready(function () {
-            {{template "partials/scripts/masthead.js"}}
-            {{template "partials/scripts/waypoints.js"}}
-            {{template "partials/scripts/scroll-to-anchor.js"}}
-            {{template "partials/scripts/stickyfooter.js"}}
-            {{template "partials/scripts/slick.js"}}
-            {{template "partials/scripts/news.js"}}
+            {{! template "partials/scripts/masthead.js"}}
+            {{! template "partials/scripts/waypoints.js"}}
+            {{! template "partials/scripts/scroll-to-anchor.js"}}
+            {{! template "partials/scripts/stickyfooter.js"}}
+            {{! template "partials/scripts/slick.js"}}
+            {{! template "partials/scripts/news.js"}}
         });
     </script>
 </body>
