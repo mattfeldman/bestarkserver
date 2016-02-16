@@ -1,1 +1,0 @@
-$('.screenshots').slick({dots: true, fade: true, speed: 500});
