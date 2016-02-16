@@ -1,4 +1,3 @@
-{{ $urlPre := "http://api.embed.ly/1/extract?key=14045eca3d45445aa1f234d96aaad59d&url=http%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D" }}
 <div class="ui vertical secondary stripe segment" id="mods">
     <h1 class="ui header container">
         <i class="plug icon"></i>
@@ -9,27 +8,23 @@
     </h1>
     <div class="ui container">
         <p>These are the mods we run or plan on running on the server. For best performance subscribe to these mods with the steam account you play on the server with.</p>
-        <p>If you're having trouble with mods installing make sure you</p>
-        <a href="http://gaming.stackexchange.com/a/144275">enable downloads in steam settings</a>
+        <p>If you're having trouble with mods installing make sure you <a href="http://gaming.stackexchange.com/a/144275">enable downloads in steam settings</a></p>
     </div>
     <div class="ui three column center aligned container grid">
-        {{ range .Site.Data.ark.data.mods }}
+        {{#each this.mods}}
         <div class="column">
-            <a class="ui fluid image link violet card" href="http://steamcommunity.com/sharedfiles/filedetails/?id={{.}}">
-                {{ $dataJ := getJSON $urlPre . }}
+            <a class="ui fluid image link violet card" href="http://steamcommunity.com/sharedfiles/filedetails/?id={{id}}">
                 <div class="image">
-                    {{range first 1 $dataJ.images }}
-                    <img src="{{.url}}"/>
-                    {{end}}
+                    <img src="{{this.images.0.url}}"/>
                 </div>
                 <div class="content">
-                    <div class="header">{{replace $dataJ.title "Steam Workshop ::" ""}}</div>
+                    <div class="header">{{this.title}}</div>
                 </div>
                 <div class="extra content">
-                    <div class="description left aligned">{{$dataJ.description}}</div>
+                    <div class="description left aligned">{{this.description}}</div>
                 </div>
             </a>
         </div>
-        {{end}}
+        {{/each}}
     </div>
 </div>
