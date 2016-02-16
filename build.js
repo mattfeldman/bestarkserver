@@ -6,6 +6,7 @@ var Metalsmith = require('metalsmith'),
     serve = require('metalsmith-serve'),
     inPlace = require('metalsmith-in-place'),
     permalinks = require('metalsmith-permalinks'),
+    collections = require('metalsmith-collections'),
     asset = require('metalsmith-static');
 
 var metalsmith = Metalsmith(__dirname)
@@ -15,6 +16,9 @@ var metalsmith = Metalsmith(__dirname)
     }))
     .use(markdown())
     .use(permalinks())
+    .use(collections({
+        posts: 'contacts/**/*.html'
+    }))
     .use(asset({
         src: "static",
         dest: "."
