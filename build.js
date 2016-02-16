@@ -3,11 +3,19 @@ var Metalsmith = require('metalsmith'),
     layouts = require('metalsmith-layouts'),
     metadata = require('metalsmith-metadata'),
     watch = require('metalsmith-watch'),
-    serve = require('metalsmith-serve');
+    serve = require('metalsmith-serve'),
+    asset = require('metalsmith-static');
+
 var metalsmith = Metalsmith(__dirname)
     .use(serve())
-    .use(watch({paths: {"**/*": "**/*"}, livereload: true}))
+    .use(watch({
+        livereload: true
+    }))
     .use(markdown())
+    .use(asset({
+        src: "static",
+        dest: "."
+    }))
     .use(metadata({
         "Site": "data/config.json",
         "Ark": "data/ark.yaml"

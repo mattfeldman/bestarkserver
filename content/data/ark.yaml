@@ -22,7 +22,7 @@ data:
       icon: tree
 
     - label: xp
-      rate: 15
+      rate: 10
       icon: star
 
     - label: taming
