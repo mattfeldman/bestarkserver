@@ -2,3 +2,5 @@ static/assets
 public
 .idea
 dist
+dist-new
+node_modules

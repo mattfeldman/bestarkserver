@@ -1,0 +1,13 @@
+---
+title: Contact Us
+---
+<div class="ui two cards">
+    {{#each collections.contacts}}
+    <a class="ui purple card" href="/{{this.path}}">
+        <div class="content">
+            <div class="header">{{this.title}}</div>
+            <div class="description">{{this.description}}</div>
+        </div>
+    </a>
+    {{/each}}
+</div>

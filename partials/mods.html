@@ -1,0 +1,30 @@
+<div class="ui vertical secondary stripe segment" id="mods">
+    <h1 class="ui header container">
+        <i class="plug icon"></i>
+        <div class="content">
+            Mods
+            <div class="sub header">From the Ark Steam Workshop</div>
+        </div>
+    </h1>
+    <div class="ui container">
+        <p>These are the mods we run or plan on running on the server. For best performance subscribe to these mods with the steam account you play on the server with.</p>
+        <p>If you're having trouble with mods installing make sure you <a href="http://gaming.stackexchange.com/a/144275">enable downloads in steam settings</a></p>
+    </div>
+    <div class="ui three column center aligned container grid">
+        {{#each this.mods}}
+        <div class="column">
+            <a class="ui fluid image link violet card" href="http://steamcommunity.com/sharedfiles/filedetails/?id={{id}}">
+                <div class="image">
+                    <img src="{{this.images.0.url}}"/>
+                </div>
+                <div class="content">
+                    <div class="header">{{this.title}}</div>
+                </div>
+                <div class="extra content">
+                    <div class="description left aligned">{{this.description}}</div>
+                </div>
+            </a>
+        </div>
+        {{/each}}
+    </div>
+</div>

@@ -1,14 +1,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{.Title}} | {{.Site.Title}}</title>
+    <title>{{Title}} | {{Site.Title}}</title>
     <link rel="stylesheet" type="text/css" href='/assets/semantic/dist/semantic.min.css'/>
     <link rel="stylesheet" type="text/css" href='/css/homepage.css'/>
 </head>
+<body>
 <div class="ui inverted vertical static header center aligned segment">
-    {{partial "page-nav" .}}
+    {{> page-nav}}
     <div class="ui text container">
-        <h1 class="ui inverted header">{{.Title}}</h1>
+        <h1 class="ui inverted header">{{Title}}</h1>
         <h3 class="ui inverted header">Best Ark Server</h3>
     </div>
 </div>
@@ -18,18 +19,15 @@
         <a href="/" class="section">Home</a>
     </div>
     <div class="ui vertical segment">
-        {{.Content}}
+        {{{contents}}}
     </div>
 </div>
-{{partial "footer" .}}
+{{> footer}}
 
 <script src="/assets/jquery/dist/jquery.min.js"></script>
 <script src="/assets/semantic/dist/semantic.min.js"></script>
 <script src="/assets/stickyFooter/dist/jquery.stickyfooter.min.js"></script>
-<script>
-    $(document).ready(function () {
-        {{template "partials/scripts/stickyfooter.js"}}
-    });
-</script>
+<script src="/scripts/stickyfooter.js"></script>
+
 </body>
 </html>

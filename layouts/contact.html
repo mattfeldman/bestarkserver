@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{.Title}} | {{.Site.Title}}</title>
+    <title>{{title}} | {{Site.Title}}</title>
     <link rel="stylesheet" type="text/css" href='/assets/semantic/dist/semantic.min.css'/>
     <link rel="stylesheet" type="text/css" href='/css/homepage.css'/>
 </head>
@@ -27,13 +27,13 @@
             <span class="divider">/</span>
             <a href="/contact" class="section">Contact</a>
             <span class="divider">/</span>
-            <div class="active section">{{.Title}}</div>
+            <div class="active section">{{title}}</div>
         </div>
-        <h1>{{.Title}}</h1>
-        <p>{{.Description}}</p>
-        {{.Content}}
+        <h1>{{title}}</h1>
+        <p>{{description}}</p>
+        {{{contents}}}
     </div>
-    {{partial "footer" .}}
+    {{> footer }}
 </div>
 
 <script src="/assets/jquery/dist/jquery.min.js"></script>
@@ -41,7 +41,7 @@
 <script src="/assets/stickyFooter/dist/jquery.stickyfooter.min.js"></script>
 <script>
     $(document).ready(function () {
-        {{template "partials/scripts/stickyfooter.js"}}
+        {{! template "partials/scripts/stickyfooter.js"}}
     });
 </script>
 </body>

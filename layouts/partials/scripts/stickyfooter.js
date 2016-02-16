@@ -1,1 +1,0 @@
-$(".footer").stickyFooter({css:{opacity: 1}});

@@ -8,17 +8,17 @@
     </h1>
     <div class="ui container">
         <div class="ui four statistics">
-            {{ range .Site.Data.ark.data.rates }}
+            {{#each Ark.data.rates }}
             <div class="ui statistic">
                 <div class="value">
-                    {{ .rate }}
+                    {{ rate }}
                 </div>
                 <div class="label">
-                    <i class="ui icon {{.icon}}"></i>
-                    {{ .label }}
+                    <i class="ui icon {{icon}}"></i>
+                    {{ label }}
                 </div>
             </div>
-            {{ end }}
+            {{/each}}
         </div>
     </div>
 </div>
