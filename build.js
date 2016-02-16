@@ -4,6 +4,8 @@ var Metalsmith = require('metalsmith'),
     metadata = require('metalsmith-metadata'),
     watch = require('metalsmith-watch'),
     serve = require('metalsmith-serve'),
+    inPlace = require('metalsmith-in-place'),
+    permalinks = require('metalsmith-permalinks'),
     asset = require('metalsmith-static');
 
 var metalsmith = Metalsmith(__dirname)
@@ -12,6 +14,7 @@ var metalsmith = Metalsmith(__dirname)
         livereload: true
     }))
     .use(markdown())
+    .use(permalinks())
     .use(asset({
         src: "static",
         dest: "."
@@ -24,7 +27,11 @@ var metalsmith = Metalsmith(__dirname)
         engine: 'handlebars',
         directory: 'layouts',
         partials: 'partials',
-        "default": 'index.html'
+        "default": 'default.html'
+    }))
+    .use(inPlace({
+        engine: 'handlebars',
+        partials: 'partials'
     }))
     .source('content')
     .destination('./dist-new')
