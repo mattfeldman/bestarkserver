@@ -46,6 +46,7 @@ var steamPluginData = function (mods) {
                 });
             },
             function (err) {
+                if(err) throw err;
                 metaRef["mods"] = metaMods;
                 console.log("Done Pulling Steam Mod Data for "+metaMods.length);
                 done();
@@ -63,7 +64,7 @@ var metalsmith = Metalsmith(__dirname)
     .use(markdown())
     .use(permalinks())
     .use(collections({
-        posts: 'contacts/**/*.html'
+        contacts: 'contacts/**/*.html'
     }))
     .use(asset({
         src: "static",
