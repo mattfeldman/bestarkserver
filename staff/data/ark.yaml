@@ -25,25 +25,90 @@
         <a href="/" class="section">Home</a>
     </div>
     <div class="ui vertical segment">
-        
+        data:
+  mods:
+    - "520879363"
+    - "509793590"
+    - "529801313"
+    - "531396658"
+    - "566885854"
+    - "510590313"
+    - "539464369"
+    - "535821068"
+    - "564895376"
+    - "520953653"
+    - "544598236"
+    - "559651126"
+    - "566887000"
+    - "509791002"
+    - "534838287"
+  screenshots: [39,40,1,33,44,42,41,3,4,9,15,14,16,17,24,26,28,37,47]
+  rates:
+    - label: harvest
+      rate: 15
+      icon: tree
 
-<form class="ui form" action="https://getsimpleform.com/messages?form_api_token=8698420a515f5cd58ac42587c5b95bf1" method="post">
-    <input type="hidden" name="subject" value="Admin Contact" />
-    <input type='hidden' name='redirect_to' value="http://www.bestarkserver.com/thankyou/" />
-    <div class="field">
-        <label>Ark Player Name</label>
-        <input name="player"/>
-    </div>
-    <div class="field">
-        <label>Email Address</label>
-        <input name="email"/>
-    </div>
-    <div class="field">
-        <label>Message</label>
-        <textarea name="message"></textarea>
-    </div>
-    <input type="submit" class="ui violet button"/>
-</form>
+    - label: xp
+      rate: 10
+      icon: star
+
+    - label: taming
+      rate: 20
+      icon: lightning
+
+    - label: level cap
+      rate: 200+10
+      icon: flag
+
+    - label: dino cap
+      rate: 240
+      icon: paw
+
+    - label: dino breed
+      rate: 10
+      icon: heterosexual
+
+    - label: dino growth
+      rate: 10
+      icon: bug
+
+    - label: dino food rate
+      rate: 2
+      icon: food
+
+  rules:
+    do:
+      - title: "Have fun - don't spoil others fun"
+        details: "Really, we're all trying to have fun here, so do whatever is fun to you, but please try to be a good neighbor and consider others."
+
+      - title: "Spread out"
+        details: "Out of respect for others please do not start building close to another tribe's build without their permission"
+
+      - title: "Keep track of your Dinosaurs"
+        details: "Do not leave your tames on wander/aggressive. Please keep your dinos in your base."
+    dont:
+      - title: "No blocking dense resource nodes"
+        details: "Areas like the 'volcano' have dense resources spawns for crystal/obsidian/metal, placing structures near the resource nodes can interfere with the spawn. You can build on the perimeter so you can still be close to the nodes without them from spawning."
+
+      - title: "No laggy massive bases or dino hordes"
+        details: "Build whatever base and collect whatever dinosaurs you need. We're concerned with excessive dino populations and bases that are known sources of lag on the server."
+
+      - title: "No building at spires or carno island"
+        details: "These building areas are reserved."
+
+      - title: "No abusive/hateful speech"
+        details: "We want to ensure the server is a healthy environment for everyone. We're concerned here with public chat, we do not want global filled with private arguments and inflamatory humor."
+  about: >
+    We are a **casual PVE ark server** with beginner friendly rates. The server was spawned out of the
+    fustration of finding a stable PVE centric community. Our goal was to create an open community of regular ark players. The server is currently based in **Seattle, Washington**
+
+
+    Our admin philosophy is that we will remove those who are intent on damaging the server, but otherwise do not
+    interfere with personal disputes, tribe ownership, lost dinos, spawning items, etc. We believe this hands off approach
+    fits the friendly community of our server while giving our staff a chance to focus on important issues and a chance to enjoy ark
+    themselves.
+
+
     </div>
 </div>
 <div class="ui vertical footer segment">

@@ -1,68 +1,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contacts | Best Ark Server</title>
+    <title> | </title>
     <link rel="stylesheet" type="text/css" href='/assets/semantic/dist/semantic.min.css'/>
     <link rel="stylesheet" type="text/css" href='/css/homepage.css'/>
 </head>
-<body class="pushable">
+<body>
+<div class="ui inverted vertical static header center aligned segment">
+    <div class="ui container">
+        <div class="ui huge secondary inverted pointing menu">
+            <a href="/" class="item">Home</a>
+            <a href="/contact" class="item">Contact</a>
+            <a href="/staff" class="item">Staff</a>
+        </div>
+    </div>
+    <div class="ui text container">
+        <h1 class="ui inverted header"></h1>
+        <h3 class="ui inverted header">Best Ark Server</h3>
+    </div>
+</div>
 
-<div class="pusher">
-    <div class="ui inverted vertical static header center aligned segment">
-        <div class="ui container"><div class="ui huge secondary inverted pointing menu"><a class="item" href="/">Home</a><a class="item" href="/contact">Contact</a><a class="item" href="/staff">Staff</a></div></div>
-        <div class="ui text container">
-            <h1 class="ui inverted header">Contact</h1>
-            <h3 class="ui inverted header">Best Ark Server</h3>
+<div class="ui vertical stripe segment text container">
+    <div class="ui breadcrumb">
+        <a href="/" class="section">Home</a>
+    </div>
+    <div class="ui vertical segment">
+        
+<div class="ui two cards">
+    <a class="ui purple card" href="/contacts/abandoned-base">
+        <div class="content">
+            <div class="header">Find an abandoned base?</div>
+            <div class="description">Help us out by reporting clearly abandoned structures, we can use this for our clean up events to free up premium space on the server.</div>
         </div>
-    </div>
-
-    <div class="ui vertical stripe segment text container">
-        <div class="ui breadcrumb">
-            <a href="/" class="section">Home</a>
-            <span class="divider">/</span>
-            <div class="section">Contact</div>
+    </a>
+    <a class="ui purple card" href="/contacts/admin">
+        <div class="content">
+            <div class="header">Contact Admin</div>
+            <div class="description">Use this form to contact an admin</div>
         </div>
-        Section
-        <div class="ui two cards">
-            
-                <a class="ui purple card" href="/contact/apply/">
-    <div class="content">
-        <div class="header">Apply/Suggest Staff</div>
-        <div class="description">Apply or support a player.</div>
-    </div>
-</a>
-            
-                <a class="ui purple card" href="/contact/admin/">
-    <div class="content">
-        <div class="header">Contact Admin</div>
-        <div class="description">Use this form to contact an admin</div>
-    </div>
-</a>
-            
-                <a class="ui purple card" href="/contact/abandoned-base/">
-    <div class="content">
-        <div class="header">Find an abandoned base?</div>
-        <div class="description">Help us out by reporting clearly abandoned structures, we can use this for our clean up events to free up premium space on the server.</div>
-    </div>
-</a>
-            
-                <a class="ui purple card" href="/contact/screenshot/">
-    <div class="content">
-        <div class="header">Submit Screenshot</div>
-        <div class="description">Send us your screenshots from our server.</div>
-    </div>
-</a>
-            
-                <a class="ui purple card" href="/contact/mod/">
-    <div class="content">
-        <div class="header">Suggest a Mod</div>
-        <div class="description">Submit your vote for steam workshop mods you want to see on the server.</div>
-    </div>
-</a>
-            
+    </a>
+    <a class="ui purple card" href="/contacts/apply">
+        <div class="content">
+            <div class="header">Apply/Suggest Staff</div>
+            <div class="description">Apply or support a player.</div>
         </div>
+    </a>
+    <a class="ui purple card" href="/contacts/mod">
+        <div class="content">
+            <div class="header">Suggest a Mod</div>
+            <div class="description">Submit your vote for steam workshop mods you want to see on the server.</div>
+        </div>
+    </a>
+    <a class="ui purple card" href="/contacts/screenshot">
+        <div class="content">
+            <div class="header">Submit Screenshot</div>
+            <div class="description">Send us your screenshots from our server.</div>
+        </div>
+    </a>
+</div>
     </div>
-    <div class="ui vertical footer segment">
+</div>
+<div class="ui vertical footer segment">
     <div class="ui container">
         <div class="ui stackable divided equal height stackable grid">
             <div class="three wide column"><h4 class="ui header">About</h4>
@@ -100,15 +98,10 @@
     ga('send', 'pageview');
 
 </script>
-</div>
-
 <script src="/assets/jquery/dist/jquery.min.js"></script>
 <script src="/assets/semantic/dist/semantic.min.js"></script>
 <script src="/assets/stickyFooter/dist/jquery.stickyfooter.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $(".footer").stickyFooter({css:{opacity: 1}});
-    });
-</script>
+<script src="/scripts/stickyfooter.js"></script>
+
 </body>
 </html>
