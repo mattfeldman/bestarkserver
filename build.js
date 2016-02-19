@@ -9,11 +9,18 @@ var Metalsmith = require('metalsmith'),
     collections = require('metalsmith-collections'),
     asset = require('metalsmith-static');
 
-var metalsmith = Metalsmith(__dirname)
-    .use(serve())
-    .use(watch({
-        livereload: true
-    }))
+
+var metalsmith = Metalsmith(__dirname);
+
+if (process.argv.length != 3 || process.argv[2] !== "publish") {
+    metalsmith.use(serve())
+              .use(watch({
+                  livereload: true
+              }));
+    console.log("Building once for publish.")
+}
+
+metalsmith
     .use(markdown())
     .use(permalinks())
     .use(collections({
